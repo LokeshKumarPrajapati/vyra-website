@@ -1,0 +1,181 @@
+/* ── Scroll container ────────────────────────────────────────────────────── */
+.hero-scroll-container {
+  height: 300vh;
+  position: relative;
+}
+
+/* ── Sticky viewport ─────────────────────────────────────────────────────── */
+.hero-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ── Background layer ────────────────────────────────────────────────────── */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  transition: none;
+}
+
+/* ── Peek glow — blue aura at center of screen (dark scene) ──────────────── */
+.peek-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 800px;
+  height: 70vh;
+  z-index: 2;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 55% 45% at 50% 50%,
+    rgba(40, 110, 255, 0.28) 0%,
+    rgba(20, 60, 200, 0.16) 40%,
+    rgba(10, 20, 100, 0.06) 65%,
+    transparent 85%
+  );
+  filter: blur(12px);
+}
+
+/* ── Dark scene floating particles ──────────────────────────────────────── */
+.dark-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 22; /* above curtains so stars float in dark areas */
+  pointer-events: none;
+}
+
+.dp {
+  position: absolute;
+  color: #4488ee;
+  line-height: 1;
+  user-select: none;
+  animation: dpFloat 4s ease-in-out infinite alternate;
+  opacity: 0.65;
+  text-shadow: 0 0 8px #3366ff, 0 0 18px #1133cc;
+}
+
+@keyframes dpFloat {
+  0%   { transform: translateY(0px) scale(1);   opacity: 0.5; }
+  100% { transform: translateY(-12px) scale(1.1); opacity: 0.9; }
+}
+
+/* ── Decorative rings (light scene) ─────────────────────────────────────── */
+.deco-rings {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(37, 99, 235, 0.12);
+}
+
+.ring-1 { width: 55vh; height: 55vh; }
+.ring-2 { width: 75vh; height: 75vh; border-color: rgba(37, 99, 235, 0.07); }
+.ring-3 { width: 95vh; height: 95vh; border-color: rgba(37, 99, 235, 0.04); }
+
+/* ── Light sparkles (light scene) ───────────────────────────────────────── */
+.light-sparkles {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.ls {
+  position: absolute;
+  color: #94a3b8;
+  font-weight: 300;
+  line-height: 1;
+  user-select: none;
+}
+
+/* ── Live2D character wrapper ────────────────────────────────────────────── */
+.character-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  /* translateX(-50%) translateY(Xvh) applied via inline style */
+  width: min(960px, 110vw);
+  height: 130vh;
+  z-index: 5;
+  will-change: transform;
+  /* Force own GPU compositing layer — prevents CSS transforms from
+     softening the canvas via software rasterisation */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Inner wrapper handles the gentle floating animation */
+.character-inner {
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  transform: translateZ(0);
+  /* Slow, smooth sine-wave float — cubic-bezier gives a natural "breathing" feel */
+  animation: charFloat 6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+/* Canvas rendered by PixiJS — no extra filtering or blurring */
+.character-inner canvas {
+  image-rendering: auto;
+  filter: none !important;
+}
+
+@keyframes charFloat {
+  0%   { transform: translateZ(0) translateY(0px);    }
+  25%  { transform: translateZ(0) translateY(-6px);   }
+  50%  { transform: translateZ(0) translateY(-12px);  }
+  75%  { transform: translateZ(0) translateY(-6px);   }
+  100% { transform: translateZ(0) translateY(0px);    }
+}
+
+/* ── TOP curtain — thin vignette, slides UP on scroll ────────────────────── */
+.top-curtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 14vh;
+  z-index: 20;
+  pointer-events: none;
+  will-change: transform;
+  background: linear-gradient(
+    to bottom,
+    #000510 0%,
+    rgba(0, 5, 16, 0.80) 55%,
+    transparent 100%
+  );
+}
+
+/* ── BOTTOM curtain — tall shadow hides lower face/body, slides DOWN ──────── */
+.bottom-curtain {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55vh;
+  z-index: 20;
+  pointer-events: none;
+  will-change: transform;
+  background: linear-gradient(
+    to top,
+    #000510 0%,
+    #000510 50%,
+    rgba(0, 5, 16, 0.92) 75%,
+    rgba(0, 5, 16, 0.45) 88%,
+    transparent 100%
+  );
+}
