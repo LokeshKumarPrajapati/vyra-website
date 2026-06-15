@@ -1,0 +1,916 @@
+{
+  "python": {
+    "name": "Python",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "Python",
+        "property": "type",
+        "value": "programming language",
+        "confidence": 1.0,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.692346",
+        "valid_until": "2026-04-20T12:38:44.108737",
+        "created_at": "2026-04-19T23:40:34.692346"
+      },
+      {
+        "concept": "Python",
+        "property": "type",
+        "value": "programming language",
+        "confidence": 1.0,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.108737",
+        "valid_until": "2026-04-20T16:49:49.176301",
+        "created_at": "2026-04-20T12:38:44.108737"
+      },
+      {
+        "concept": "Python",
+        "property": "type",
+        "value": "programming language",
+        "confidence": 1.0,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.176301",
+        "valid_until": "2026-04-20T17:21:12.640692",
+        "created_at": "2026-04-20T16:49:49.176301"
+      },
+      {
+        "concept": "Python",
+        "property": "type",
+        "value": "programming language",
+        "confidence": 1.0,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.640692",
+        "valid_until": "2026-05-04T21:09:38.466885",
+        "created_at": "2026-04-20T17:21:12.640692"
+      },
+      {
+        "concept": "Python",
+        "property": "type",
+        "value": "programming language",
+        "confidence": 1.0,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.466885",
+        "valid_until": "2026-05-04T21:10:06.903165",
+        "created_at": "2026-05-04T21:09:38.466885"
+      },
+      {
+        "concept": "Python",
+        "property": "type",
+        "value": "programming language",
+        "confidence": 1.0,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:06.903165",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:06.903165"
+      }
+    ]
+  },
+  "testlang": {
+    "name": "TestLang",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "TestLang",
+        "property": "purpose",
+        "value": "testing",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.732005",
+        "valid_until": "2026-04-20T12:38:44.117962",
+        "created_at": "2026-04-19T23:40:34.732005"
+      },
+      {
+        "concept": "TestLang",
+        "property": "purpose",
+        "value": "testing",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.117962",
+        "valid_until": "2026-04-20T16:49:49.192391",
+        "created_at": "2026-04-20T12:38:44.117962"
+      },
+      {
+        "concept": "TestLang",
+        "property": "purpose",
+        "value": "testing",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.192391",
+        "valid_until": "2026-04-20T17:21:12.655040",
+        "created_at": "2026-04-20T16:49:49.192391"
+      },
+      {
+        "concept": "TestLang",
+        "property": "purpose",
+        "value": "testing",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.655040",
+        "valid_until": "2026-05-04T21:09:38.475089",
+        "created_at": "2026-04-20T17:21:12.655040"
+      },
+      {
+        "concept": "TestLang",
+        "property": "purpose",
+        "value": "testing",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.475089",
+        "valid_until": "2026-05-04T21:10:06.921759",
+        "created_at": "2026-05-04T21:09:38.475089"
+      },
+      {
+        "concept": "TestLang",
+        "property": "purpose",
+        "value": "testing",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:06.921759",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:06.921759"
+      }
+    ]
+  },
+  "retracttest": {
+    "name": "RetractTest",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "RetractTest",
+        "property": "color",
+        "value": "blue",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.760777",
+        "valid_until": "2026-04-19T23:40:34.762282",
+        "created_at": "2026-04-19T23:40:34.760777"
+      },
+      {
+        "concept": "RetractTest",
+        "property": "color",
+        "value": "blue",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.120595",
+        "valid_until": "2026-04-20T12:38:44.120595",
+        "created_at": "2026-04-20T12:38:44.120595"
+      },
+      {
+        "concept": "RetractTest",
+        "property": "color",
+        "value": "blue",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.210014",
+        "valid_until": "2026-04-20T16:49:49.214585",
+        "created_at": "2026-04-20T16:49:49.210014"
+      },
+      {
+        "concept": "RetractTest",
+        "property": "color",
+        "value": "blue",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.666878",
+        "valid_until": "2026-04-20T17:21:12.668876",
+        "created_at": "2026-04-20T17:21:12.666878"
+      },
+      {
+        "concept": "RetractTest",
+        "property": "color",
+        "value": "blue",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.486933",
+        "valid_until": "2026-05-04T21:09:38.486933",
+        "created_at": "2026-05-04T21:09:38.486933"
+      },
+      {
+        "concept": "RetractTest",
+        "property": "color",
+        "value": "blue",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:06.937912",
+        "valid_until": "2026-05-04T21:10:06.940424",
+        "created_at": "2026-05-04T21:10:06.937912"
+      }
+    ]
+  },
+  "versiontest": {
+    "name": "VersionTest",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "active",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.774833",
+        "valid_until": "2026-04-19T23:40:34.775833",
+        "created_at": "2026-04-19T23:40:34.774833"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "inactive",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.775833",
+        "valid_until": "2026-04-20T12:38:44.131675",
+        "created_at": "2026-04-19T23:40:34.775833"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "active",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.131675",
+        "valid_until": "2026-04-20T12:38:44.139146",
+        "created_at": "2026-04-20T12:38:44.131675"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "inactive",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.139146",
+        "valid_until": "2026-04-20T16:49:49.229126",
+        "created_at": "2026-04-20T12:38:44.139146"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "active",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.229126",
+        "valid_until": "2026-04-20T16:49:49.231731",
+        "created_at": "2026-04-20T16:49:49.229126"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "inactive",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.231731",
+        "valid_until": "2026-04-20T17:21:12.679151",
+        "created_at": "2026-04-20T16:49:49.231731"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "active",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.679151",
+        "valid_until": "2026-04-20T17:21:12.682042",
+        "created_at": "2026-04-20T17:21:12.679151"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "inactive",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.682042",
+        "valid_until": "2026-05-04T21:09:38.501087",
+        "created_at": "2026-04-20T17:21:12.682042"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "active",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.501087",
+        "valid_until": "2026-05-04T21:09:38.502084",
+        "created_at": "2026-05-04T21:09:38.501087"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "inactive",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.502084",
+        "valid_until": "2026-05-04T21:10:06.957767",
+        "created_at": "2026-05-04T21:09:38.502084"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "active",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:06.957767",
+        "valid_until": "2026-05-04T21:10:06.962316",
+        "created_at": "2026-05-04T21:10:06.957767"
+      },
+      {
+        "concept": "VersionTest",
+        "property": "status",
+        "value": "inactive",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:06.962316",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:06.962316"
+      }
+    ]
+  },
+  "django": {
+    "name": "Django",
+    "parent": "python framework",
+    "aliases": [],
+    "facts": []
+  },
+  "python framework": {
+    "name": "Python Framework",
+    "parent": null,
+    "aliases": [],
+    "facts": []
+  },
+  "vehicle": {
+    "name": "Vehicle",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "Vehicle",
+        "property": "has_wheels",
+        "value": "true",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.808072",
+        "valid_until": "2026-04-20T12:38:44.151067",
+        "created_at": "2026-04-19T23:40:34.808072"
+      },
+      {
+        "concept": "Vehicle",
+        "property": "has_wheels",
+        "value": "true",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.151067",
+        "valid_until": "2026-04-20T16:49:49.264518",
+        "created_at": "2026-04-20T12:38:44.151067"
+      },
+      {
+        "concept": "Vehicle",
+        "property": "has_wheels",
+        "value": "true",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.264518",
+        "valid_until": "2026-04-20T17:21:12.707140",
+        "created_at": "2026-04-20T16:49:49.264518"
+      },
+      {
+        "concept": "Vehicle",
+        "property": "has_wheels",
+        "value": "true",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.707140",
+        "valid_until": "2026-05-04T21:09:38.521518",
+        "created_at": "2026-04-20T17:21:12.707140"
+      },
+      {
+        "concept": "Vehicle",
+        "property": "has_wheels",
+        "value": "true",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.521518",
+        "valid_until": "2026-05-04T21:10:07.000107",
+        "created_at": "2026-05-04T21:09:38.521518"
+      },
+      {
+        "concept": "Vehicle",
+        "property": "has_wheels",
+        "value": "true",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.000107",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.000107"
+      }
+    ]
+  },
+  "car": {
+    "name": "Car",
+    "parent": "vehicle",
+    "aliases": [],
+    "facts": []
+  },
+  "noconflict": {
+    "name": "NoConflict",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "small",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.832306",
+        "valid_until": "2026-04-19T23:40:34.834313",
+        "created_at": "2026-04-19T23:40:34.832306"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "large",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.834313",
+        "valid_until": "2026-04-20T12:38:44.162995",
+        "created_at": "2026-04-19T23:40:34.834313"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "small",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.162995",
+        "valid_until": "2026-04-20T12:38:44.162995",
+        "created_at": "2026-04-20T12:38:44.162995"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "large",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.162995",
+        "valid_until": "2026-04-20T16:49:49.287814",
+        "created_at": "2026-04-20T12:38:44.162995"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "small",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.287814",
+        "valid_until": "2026-04-20T16:49:49.290321",
+        "created_at": "2026-04-20T16:49:49.287814"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "large",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.290321",
+        "valid_until": "2026-04-20T17:21:12.720655",
+        "created_at": "2026-04-20T16:49:49.290321"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "small",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.720655",
+        "valid_until": "2026-04-20T17:21:12.722173",
+        "created_at": "2026-04-20T17:21:12.720655"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "large",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.722173",
+        "valid_until": "2026-05-04T21:09:38.537912",
+        "created_at": "2026-04-20T17:21:12.722173"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "small",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.537912",
+        "valid_until": "2026-05-04T21:09:38.538935",
+        "created_at": "2026-05-04T21:09:38.537912"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "large",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.538935",
+        "valid_until": "2026-05-04T21:10:07.022952",
+        "created_at": "2026-05-04T21:09:38.538935"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "small",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.022952",
+        "valid_until": "2026-05-04T21:10:07.026977",
+        "created_at": "2026-05-04T21:10:07.022952"
+      },
+      {
+        "concept": "NoConflict",
+        "property": "size",
+        "value": "large",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.026977",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.026977"
+      }
+    ]
+  },
+  "deepconcept": {
+    "name": "DeepConcept",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "DeepConcept",
+        "property": "prop_0",
+        "value": "val_0",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.896242",
+        "valid_until": "2026-04-20T12:38:44.173524",
+        "created_at": "2026-04-19T23:40:34.896242"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_1",
+        "value": "val_1",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.898764",
+        "valid_until": "2026-04-20T12:38:44.173524",
+        "created_at": "2026-04-19T23:40:34.898764"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_2",
+        "value": "val_2",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.900646",
+        "valid_until": "2026-04-20T12:38:44.173524",
+        "created_at": "2026-04-19T23:40:34.900646"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_3",
+        "value": "val_3",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.901180",
+        "valid_until": "2026-04-20T12:38:44.173524",
+        "created_at": "2026-04-19T23:40:34.901180"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_4",
+        "value": "val_4",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.904693",
+        "valid_until": "2026-04-20T12:38:44.178869",
+        "created_at": "2026-04-19T23:40:34.904693"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_0",
+        "value": "val_0",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.173524",
+        "valid_until": "2026-04-20T16:49:49.311592",
+        "created_at": "2026-04-20T12:38:44.173524"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_1",
+        "value": "val_1",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.173524",
+        "valid_until": "2026-04-20T16:49:49.314120",
+        "created_at": "2026-04-20T12:38:44.173524"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_2",
+        "value": "val_2",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.173524",
+        "valid_until": "2026-04-20T16:49:49.316638",
+        "created_at": "2026-04-20T12:38:44.173524"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_3",
+        "value": "val_3",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.173524",
+        "valid_until": "2026-04-20T16:49:49.319635",
+        "created_at": "2026-04-20T12:38:44.173524"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_4",
+        "value": "val_4",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.178869",
+        "valid_until": "2026-04-20T16:49:49.322139",
+        "created_at": "2026-04-20T12:38:44.178869"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_0",
+        "value": "val_0",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.311592",
+        "valid_until": "2026-04-20T17:21:12.735749",
+        "created_at": "2026-04-20T16:49:49.311592"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_1",
+        "value": "val_1",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.314120",
+        "valid_until": "2026-04-20T17:21:12.737757",
+        "created_at": "2026-04-20T16:49:49.314120"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_2",
+        "value": "val_2",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.316638",
+        "valid_until": "2026-04-20T17:21:12.738754",
+        "created_at": "2026-04-20T16:49:49.316638"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_3",
+        "value": "val_3",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.319635",
+        "valid_until": "2026-04-20T17:21:12.740260",
+        "created_at": "2026-04-20T16:49:49.319635"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_4",
+        "value": "val_4",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.322139",
+        "valid_until": "2026-04-20T17:21:12.742290",
+        "created_at": "2026-04-20T16:49:49.322139"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_0",
+        "value": "val_0",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.735749",
+        "valid_until": "2026-05-04T21:09:38.551623",
+        "created_at": "2026-04-20T17:21:12.735749"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_1",
+        "value": "val_1",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.737757",
+        "valid_until": "2026-05-04T21:09:38.553670",
+        "created_at": "2026-04-20T17:21:12.737757"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_2",
+        "value": "val_2",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.738754",
+        "valid_until": "2026-05-04T21:09:38.556866",
+        "created_at": "2026-04-20T17:21:12.738754"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_3",
+        "value": "val_3",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.740260",
+        "valid_until": "2026-05-04T21:09:38.557893",
+        "created_at": "2026-04-20T17:21:12.740260"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_4",
+        "value": "val_4",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.742290",
+        "valid_until": "2026-05-04T21:09:38.562095",
+        "created_at": "2026-04-20T17:21:12.742290"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_0",
+        "value": "val_0",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.551623",
+        "valid_until": "2026-05-04T21:10:07.045065",
+        "created_at": "2026-05-04T21:09:38.551623"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_1",
+        "value": "val_1",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.553670",
+        "valid_until": "2026-05-04T21:10:07.048737",
+        "created_at": "2026-05-04T21:09:38.553670"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_2",
+        "value": "val_2",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.556866",
+        "valid_until": "2026-05-04T21:10:07.052743",
+        "created_at": "2026-05-04T21:09:38.556866"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_3",
+        "value": "val_3",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.557893",
+        "valid_until": "2026-05-04T21:10:07.055260",
+        "created_at": "2026-05-04T21:09:38.557893"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_4",
+        "value": "val_4",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.562095",
+        "valid_until": "2026-05-04T21:10:07.059288",
+        "created_at": "2026-05-04T21:09:38.562095"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_0",
+        "value": "val_0",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.045065",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.045065"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_1",
+        "value": "val_1",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.048737",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.048737"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_2",
+        "value": "val_2",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.052743",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.052743"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_3",
+        "value": "val_3",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.055260",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.055260"
+      },
+      {
+        "concept": "DeepConcept",
+        "property": "prop_4",
+        "value": "val_4",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.060295",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.060295"
+      }
+    ]
+  },
+  "getvaltest": {
+    "name": "GetValTest",
+    "parent": null,
+    "aliases": [],
+    "facts": [
+      {
+        "concept": "GetValTest",
+        "property": "lang",
+        "value": "python",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-19T23:40:34.919099",
+        "valid_until": "2026-04-20T12:38:44.182022",
+        "created_at": "2026-04-19T23:40:34.919099"
+      },
+      {
+        "concept": "GetValTest",
+        "property": "lang",
+        "value": "python",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T12:38:44.182022",
+        "valid_until": "2026-04-20T16:49:49.338502",
+        "created_at": "2026-04-20T12:38:44.182022"
+      },
+      {
+        "concept": "GetValTest",
+        "property": "lang",
+        "value": "python",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T16:49:49.338502",
+        "valid_until": "2026-04-20T17:21:12.755046",
+        "created_at": "2026-04-20T16:49:49.338502"
+      },
+      {
+        "concept": "GetValTest",
+        "property": "lang",
+        "value": "python",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-04-20T17:21:12.755046",
+        "valid_until": "2026-05-04T21:09:38.572872",
+        "created_at": "2026-04-20T17:21:12.755046"
+      },
+      {
+        "concept": "GetValTest",
+        "property": "lang",
+        "value": "python",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:09:38.572872",
+        "valid_until": "2026-05-04T21:10:07.079031",
+        "created_at": "2026-05-04T21:09:38.572872"
+      },
+      {
+        "concept": "GetValTest",
+        "property": "lang",
+        "value": "python",
+        "confidence": 0.9,
+        "source": "inferred",
+        "valid_from": "2026-05-04T21:10:07.079031",
+        "valid_until": null,
+        "created_at": "2026-05-04T21:10:07.079031"
+      }
+    ]
+  }
+}

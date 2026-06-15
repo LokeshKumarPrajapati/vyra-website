@@ -1,0 +1,140 @@
+[
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3ZVkNRys8KETJFZYLaaWEV"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3ZVkNRys8KETJFZYLaaWEV",
+    "id": "3ZVkNRys8KETJFZYLaaWEV",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02190b5b394a6fc5574ceea4daab67616d00001e026da9f00138cca37503033ce4ab67616d00001e02abf5b41e1752f22b4852cb31ab67616d00001e02bf89841f2b8998f34bd32f79",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02190b5b394a6fc5574ceea4daab67616d00001e026da9f00138cca37503033ce4ab67616d00001e02abf5b41e1752f22b4852cb31ab67616d00001e02bf89841f2b8998f34bd32f79",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02190b5b394a6fc5574ceea4daab67616d00001e026da9f00138cca37503033ce4ab67616d00001e02abf5b41e1752f22b4852cb31ab67616d00001e02bf89841f2b8998f34bd32f79",
+        "width": 60
+      }
+    ],
+    "name": "Shoti",
+    "owner": {
+      "display_name": "Lokesh Kumar",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/317w3wbqgszap5slqt2wxcx624ya"
+      },
+      "href": "https://api.spotify.com/v1/users/317w3wbqgszap5slqt2wxcx624ya",
+      "id": "317w3wbqgszap5slqt2wxcx624ya",
+      "type": "user",
+      "uri": "spotify:user:317w3wbqgszap5slqt2wxcx624ya"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAkv8qV7daXOzhFtQ4jVzDl7nKvJy",
+    "items": {
+      "href": "https://api.spotify.com/v1/playlists/3ZVkNRys8KETJFZYLaaWEV/items",
+      "total": 8
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3ZVkNRys8KETJFZYLaaWEV"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/50LqNiU71pXzmiHzKstITM"
+    },
+    "href": "https://api.spotify.com/v1/playlists/50LqNiU71pXzmiHzKstITM",
+    "id": "50LqNiU71pXzmiHzKstITM",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02bb7fe97819e52a95c6236508ab67616d00001e02d60d9d8202c20158498a541aab67616d00001e02dd80ae5413c53b309946196aab67616d00001e02eef5d8ba5626de47f6878c42",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02bb7fe97819e52a95c6236508ab67616d00001e02d60d9d8202c20158498a541aab67616d00001e02dd80ae5413c53b309946196aab67616d00001e02eef5d8ba5626de47f6878c42",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02bb7fe97819e52a95c6236508ab67616d00001e02d60d9d8202c20158498a541aab67616d00001e02dd80ae5413c53b309946196aab67616d00001e02eef5d8ba5626de47f6878c42",
+        "width": 60
+      }
+    ],
+    "name": "Gold",
+    "owner": {
+      "display_name": "Lokesh",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31otalowjet7jnvua7xtseuq6vvq"
+      },
+      "href": "https://api.spotify.com/v1/users/31otalowjet7jnvua7xtseuq6vvq",
+      "id": "31otalowjet7jnvua7xtseuq6vvq",
+      "type": "user",
+      "uri": "spotify:user:31otalowjet7jnvua7xtseuq6vvq"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABran1ehU8ATxj/8wz86OVd9iGjh0",
+    "items": {
+      "href": "https://api.spotify.com/v1/playlists/50LqNiU71pXzmiHzKstITM/items",
+      "total": 5
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:50LqNiU71pXzmiHzKstITM"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5Vn7bgygxbDq8xzAgq989j"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5Vn7bgygxbDq8xzAgq989j",
+    "id": "5Vn7bgygxbDq8xzAgq989j",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02190b5b394a6fc5574ceea4daab67616d00001e026da9f00138cca37503033ce4ab67616d00001e02abf5b41e1752f22b4852cb31ab67616d00001e02bf89841f2b8998f34bd32f79",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02190b5b394a6fc5574ceea4daab67616d00001e026da9f00138cca37503033ce4ab67616d00001e02abf5b41e1752f22b4852cb31ab67616d00001e02bf89841f2b8998f34bd32f79",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02190b5b394a6fc5574ceea4daab67616d00001e026da9f00138cca37503033ce4ab67616d00001e02abf5b41e1752f22b4852cb31ab67616d00001e02bf89841f2b8998f34bd32f79",
+        "width": 60
+      }
+    ],
+    "name": "Shoti",
+    "owner": {
+      "display_name": "Lokesh",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31otalowjet7jnvua7xtseuq6vvq"
+      },
+      "href": "https://api.spotify.com/v1/users/31otalowjet7jnvua7xtseuq6vvq",
+      "id": "31otalowjet7jnvua7xtseuq6vvq",
+      "type": "user",
+      "uri": "spotify:user:31otalowjet7jnvua7xtseuq6vvq"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACWQQPr4g/M0laaWHaYy+CdoDdnUp",
+    "items": {
+      "href": "https://api.spotify.com/v1/playlists/5Vn7bgygxbDq8xzAgq989j/items",
+      "total": 8
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5Vn7bgygxbDq8xzAgq989j"
+  }
+]

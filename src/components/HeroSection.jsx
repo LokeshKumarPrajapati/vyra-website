@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Navbar from './Navbar'
 import Live2DViewer from './Live2DViewer'
-import LaserFlow from './LaserFlow'
+import VoiceChat from './VoiceChat'
 import './HeroSection.css'
 
 // ─── helpers ──────────────────────────────────────────────────────────────────
@@ -11,6 +11,8 @@ const prog = (t, s, e) => clamp((t - s) / (e - s), 0, 1)
 
 
 export default function HeroSection() {
+  const live2dRef = useRef(null)
+
   // ── Smooth scroll progress (0 → 1) via continuous lerp loop ───────────────
   const [p, setP] = useState(0)
   const scrollTargetRef = useRef(0)   // raw scroll target
@@ -68,10 +70,7 @@ export default function HeroSection() {
   const charTop = charTopBase + lerp(0, -16, charRiseP)
 
   // ── Navbar fades in after curtains fully open ─────────────────────────────
-  const navP  = prog(p, 0.52, 0.72)
-
-  // ── LaserFlow fades in once character is revealed ─────────────────────────
-  const laserOp = prog(p, 0.55, 0.80)
+  const navP = prog(p, 0.52, 0.72)
 
   return (
     <div className="hero-scroll-container">
@@ -84,44 +83,15 @@ export default function HeroSection() {
         <div className="peek-glow" style={{ opacity: peekGlowOp, pointerEvents: 'none' }} />
 
 
-        {/* Live2D character + LaserFlow at its feet */}
+        {/* Live2D character */}
         <div
           className="character-wrapper"
           style={{
             transform: `translateX(-50%) translateY(${charTop}vh) scale(${charScale})`,
           }}
         >
-          {/* LaserFlow — rendered behind character, anchored at feet */}
-          <div style={{
-            position: 'absolute',
-            bottom: 0,
-            left: '50%',
-            transform: 'translateX(-50%)',
-            width: '140%',
-            height: '45%',
-            zIndex: 0,
-            opacity: laserOp,
-            pointerEvents: 'none',
-          }}>
-            <LaserFlow
-              color="#bbb0ff"
-              wispDensity={1}
-              flowSpeed={0.35}
-              verticalSizing={2}
-              horizontalSizing={0.5}
-              fogIntensity={0.45}
-              fogScale={0.3}
-              wispSpeed={15}
-              wispIntensity={5}
-              flowStrength={0.25}
-              decay={1.1}
-              horizontalBeamOffset={0}
-              verticalBeamOffset={-0.5}
-            />
-          </div>
-
-          <div className="character-inner" style={{ position: 'relative', zIndex: 1 }}>
-            <Live2DViewer />
+          <div className="character-inner">
+            <Live2DViewer controlRef={live2dRef} />
           </div>
         </div>
 
@@ -142,6 +112,9 @@ export default function HeroSection() {
         <Navbar progress={navP} />
 
       </div>
+
+      {/* Floating voice chat button — outside sticky so it stays fixed */}
+      <VoiceChat live2dRef={live2dRef} />
     </div>
   )
 }

@@ -1,0 +1,38 @@
+{
+  "success": false,
+  "summary": "Task failed: AudioLoop.handle_web_agent_request.<locals>.update_frontend() takes from 2 to 3 positional arguments but 4 were given",
+  "action_count": 1,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "b190ae4b-899",
+    "session_start": "2026-03-15T03:20:44.045122",
+    "pages_visited": 0,
+    "action_count": 1,
+    "mode": "autonomous",
+    "plan_steps": 1,
+    "current_step": 1,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "3faee01d",
+      "timestamp": "2026-03-15T03:35:05.260159",
+      "action_type": "navigate",
+      "description": "https://www.amazon.in/",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The first step is to navigate to the Amazon.in website to begin the search for laptops under 60,000 rupees.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 5742
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: Search Amazon.in for laptops under 60000 rupees and list the top 5 results with name and price"
+  ]
+}

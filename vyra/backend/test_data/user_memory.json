@@ -1,0 +1,65 @@
+{
+  "primary_user_id": "TestUser",
+  "display_name": "TestUser",
+  "important_people": [
+    {
+      "name": "Raj",
+      "relation": "colleague",
+      "notes": "",
+      "first_mentioned": 1770042936.2948754,
+      "last_mentioned": 1770042936.2948754,
+      "importance": 3
+    },
+    {
+      "name": "Sarah",
+      "relation": "colleague",
+      "notes": "",
+      "first_mentioned": 1770042936.2964125,
+      "last_mentioned": 1770042936.2964125,
+      "importance": 3
+    }
+  ],
+  "relationships": [
+    {
+      "person_a": "Raj",
+      "person_b": "Sarah",
+      "relation": "sibling",
+      "notes": "They are brother and sister",
+      "start_date": ""
+    }
+  ],
+  "important_facts": [
+    {
+      "fact": "Must finish Project Phoenix by Friday",
+      "category": "work_project",
+      "source_timestamp": 1770042936.298417,
+      "confidence": 1.0,
+      "priority": 4
+    },
+    {
+      "fact": "Allergic to peanuts",
+      "category": "health",
+      "source_timestamp": 1770042936.2992604,
+      "confidence": 1.0,
+      "priority": 5
+    },
+    {
+      "fact": "Likes blue color",
+      "category": "preference",
+      "source_timestamp": 1770042936.2999225,
+      "confidence": 1.0,
+      "priority": 3
+    }
+  ],
+  "preferences": {},
+  "emotional_context": {
+    "last_emotion": "neutral",
+    "last_updated": 0.0,
+    "recent_emotions": []
+  },
+  "metadata": {
+    "first_seen": 1770042936.2948754,
+    "last_updated": 1770042936.2999225,
+    "version": 2
+  }
+}

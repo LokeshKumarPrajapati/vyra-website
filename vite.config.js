@@ -9,5 +9,6 @@ export default defineConfig({
   },
   resolve: {
     alias: {},
+    dedupe: ['react', 'react-dom'],
   },
 })

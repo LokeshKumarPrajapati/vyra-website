@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/test_memory_brain.py -v --tb=short)",
+      "Bash(python -c \"from unified_memory import UnifiedMemory; print\\('OK'\\)\")"
+    ]
+  }
+}

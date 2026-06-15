@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/posts/ministry-of-statistics-programme-implementation_nso-mospi-annualsurveyofindustries-activity-7401579138337374208-sj7i?trk=public_profile_relatedposts",
+  "url": "https://www.linkedin.com/posts/ministry-of-statistics-programme-implementation_nso-mospi-annualsurveyofindustries-activity-7401579138337374208-sj7I?trk=public_profile_relatedPosts",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 1
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

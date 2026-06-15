@@ -1,0 +1,38 @@
+{
+  "success": false,
+  "summary": "OpenRouter API unavailable after retries. Check API key and quota.",
+  "action_count": 1,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "a38f7501-e66",
+    "session_start": "2026-02-26T14:27:37.328926",
+    "pages_visited": 0,
+    "action_count": 1,
+    "mode": "autonomous",
+    "plan_steps": 1,
+    "current_step": 1,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "ee47e59b",
+      "timestamp": "2026-02-26T14:27:40.140920",
+      "action_type": "error",
+      "description": "OpenRouter API unavailable after retries. Check API key and quota.",
+      "url": "about:blank",
+      "risk": "high",
+      "thought": "All attempts failed \u2014 reporting error",
+      "confidence": 0.0,
+      "success": false,
+      "error": "OpenRouter API unavailable after retries. Check API key and quota.",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open youtbe"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/directory/people-search?trk=homepage-basic_directory_peoplesearchdirectoryurl",
+  "url": "https://www.linkedin.com/directory/people-search?trk=homepage-basic_directory_peopleSearchDirectoryUrl",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 2
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

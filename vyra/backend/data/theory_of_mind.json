@@ -1,0 +1,272 @@
+{
+  "lokesh": {
+    "name": "Lokesh",
+    "relationship": "user",
+    "beliefs": [
+      {
+        "content": "New models are being launched frequently, making it difficult to prepare and keep up with the latest developments.",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-19T23:12:39.363083",
+        "evidence": [
+          "\u0928\u092f\u093e \u0928\u092f\u093e \u092e\u0949\u0921\u0932 \u0906 \u0930\u0939\u093e \u0939\u0948 \u0921\u0947\u0932\u0940 \u092a\u0947 \u0921\u0947\u0932\u0940"
+        ]
+      },
+      {
+        "content": "It's challenging to acquire new skills before new models or technologies emerge.",
+        "confidence": 0.7,
+        "source": "inferred",
+        "timestamp": "2026-04-19T23:12:39.363083",
+        "evidence": [
+          "\u0915\u094b\u0908 \u0938\u094d\u0915\u093f\u0932 \u0938\u0940\u0916\u094b \u0909\u0938\u0938\u0947 \u092a\u0939\u0932\u0947 \u092e\u0949\u0921\u0932 \u0906 \u091c\u093e \u0930\u0939\u093e \u0939\u0948"
+        ]
+      },
+      {
+        "content": "Relationships are temporary and people move on with their lives",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-19T23:41:55.350817",
+        "evidence": [
+          "\u0915\u094b\u0908 \u0915\u093f\u0938\u0940 \u0915\u0947 \u0938\u093e\u0925 \u0928\u0939\u0940\u0902 \u0930\u0939\u0924\u093e \u0932\u093e\u0907\u092b \u091f\u093e\u0907\u092e \u0924\u0915"
+        ]
+      },
+      {
+        "content": "As one gets busy with work and life, new people will come into their life",
+        "confidence": 0.7,
+        "source": "inferred",
+        "timestamp": "2026-04-19T23:41:55.350817",
+        "evidence": [
+          "\u092c\u093e\u0915\u0940 \u0924\u094b \u091c\u092c \u0924\u0941\u092e \u0909\u0938\u0928\u0947 \u0932\u093e\u0907\u092b \u092e\u0947\u0902 \u092c\u093f\u091c\u0940 \u0939\u094b \u091c\u093e\u0913\u0917\u0947 \u092c\u0938 \u091c\u0949\u092c \u0915\u0930\u094b\u0917\u0940 \u0915\u093e\u092e \u0915\u0930\u094b\u0917\u0940 \u0909\u0938\u0915\u0947 \u092c\u093e\u0926 \u0924\u094b \u0932\u093e\u0907\u0915 \u0914\u0930 \u0932\u094b\u0917 \u092e\u093f\u0932\u0947\u0902\u0917\u0947"
+        ]
+      },
+      {
+        "content": "The class is ongoing and the slip is related to language",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-19T23:49:39.280573",
+        "evidence": [
+          "The conversation excerpt mentions '\u0c15\u0c4d\u0c32\u0c3e\u0c38\u0c4d \u0c09\u0c02\u0c1f\u0c3e\u0c2f\u0c3f' (class is ongoing) and '\u0c32\u0c3e\u0c02\u0c17\u0c4d\u0c35\u0c47\u0c1c\u0c4d' (language)"
+        ]
+      },
+      {
+        "content": "The camera quality is not good enough",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-19T23:52:46.974251",
+        "evidence": [
+          "\u092c\u094b\u0932 \u0915\u0947 \u0915\u094d\u0935\u093e\u0932\u093f\u091f\u0940 \u0916\u0930\u093e\u092c \u0939\u0948 \u0915\u0948\u092e\u0930\u093e \u0907\u0924\u0928\u093e \u0905\u091a\u094d\u091b\u093e \u0928\u0939\u0940\u0902 \u0939\u0948"
+        ]
+      },
+      {
+        "content": "The Instagram app is not granting permission to access the microphone",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-20T00:05:02.370763",
+        "evidence": [
+          "\u092a\u0930\u092e\u093f\u0936\u0928 \u0926\u0947\u0924\u093e \u0939\u0940 \u0928\u0939\u0940\u0902 \u0939\u0948 \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u092b\u094b\u0928 \u0915\u094b"
+        ]
+      },
+      {
+        "content": "The issue is recurring and happens every time Lokesh tries to record voice on Instagram",
+        "confidence": 0.7,
+        "source": "inferred",
+        "timestamp": "2026-04-20T00:05:02.370763",
+        "evidence": [
+          "\u091c\u092c \u092d\u0940 \u0935\u0949\u0907\u0938 \u0930\u093f\u0915\u0949\u0930\u094d\u0921 \u0915\u0930\u0924\u093e \u0939\u0942\u0902 \u092a\u0939\u0932\u093e \u0939\u0940 \u0932\u093e\u0907\u0928 \u0935\u094b \u092a\u0942\u0930\u093e \u0921\u0949\u091f \u0921\u091f \u091c\u093e\u090f\u0917\u093e"
+        ]
+      },
+      {
+        "content": "Lokesh has made a decision to take a specific action (likely related to the class or a project)",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-20T00:27:48.262718",
+        "evidence": [
+          "\u092e\u0948\u0902\u0928\u0947 \u0938\u094b\u091a \u0932\u093f\u092f\u093e \u0925\u093e \u0905\u092c \u092f\u0947 \u0930\u0940\u091c\u0928 \u091c\u093e\u090a\u0902\u0917\u093e \u0928\u093e"
+        ]
+      },
+      {
+        "content": "Lokesh is determined to take a drastic measure (\u0909\u0916\u093e\u0921\u093c \u0915\u0947 \u0932\u0947 \u091c\u093e\u090a\u0902\u0917\u093e) to achieve his goal",
+        "confidence": 0.7,
+        "source": "inferred",
+        "timestamp": "2026-04-20T00:27:48.262718",
+        "evidence": [
+          "801 \u0915\u093e \u092c\u094b\u0930\u094d\u0921 \u0924\u094b \u0909\u0916\u093e\u0921\u093c \u0915\u0947 \u0932\u0947 \u091c\u093e\u090a\u0902\u0917\u093e"
+        ]
+      },
+      {
+        "content": "The feature implementation is related to the conversation or the class",
+        "confidence": 0.6,
+        "source": "inferred",
+        "timestamp": "2026-04-20T16:49:41.891238",
+        "evidence": [
+          "The user mentions 'Why I have implemented a feature in you like' which implies a connection to the conversation or the class"
+        ]
+      },
+      {
+        "content": "The meeting is currently in progress",
+        "confidence": 0.9,
+        "source": "inferred",
+        "timestamp": "2026-04-20T17:04:17.101163",
+        "evidence": [
+          "The conversation excerpt mentions '\u092e\u0941\u0932\u093e\u0915\u093e\u0924 \u091c\u0941\u0921\u093c\u0940 \u0939\u0948' which translates to 'the meeting is connected'"
+        ]
+      },
+      {
+        "content": "The person they are communicating with may not understand English or prefers Hindi",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-23T20:21:05.337238",
+        "evidence": [
+          "The user asked to explain something in Hindi"
+        ]
+      },
+      {
+        "content": "The project is something that needs to be explained",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-23T20:49:58.848924",
+        "evidence": [
+          "Lokesh asked to explain the project, indicating they are not fully aware of its details"
+        ]
+      },
+      {
+        "content": "The conversation partner has an opinion on a topic",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-04-24T11:03:01.831572",
+        "evidence": [
+          "Lokesh asked for the conversation partner's opinion"
+        ]
+      },
+      {
+        "content": "The conversation is taking a creative and imaginative turn",
+        "confidence": 0.8,
+        "source": "inferred",
+        "timestamp": "2026-05-04T21:14:41.573656",
+        "evidence": [
+          "The use of phrases like '\u0938\u0941\u092a\u0930 \u092e\u0948\u0938\u093f\u0935 \u092c\u094d\u0932\u0948\u0915 \u0939\u094b\u0932' and '\u0932\u093f\u091f\u0930\u0932\u0940 \u0907\u0938 \u0917\u0948\u0932\u0947\u0915\u094d\u0938\u0940 \u0915\u0947 \u092c\u094d\u0932\u0948\u0915 \u0939\u094b\u0932 \u0924\u0915 \u0932\u0947\u0915\u0947 \u091a\u0932\u0924\u093e \u0939\u0942\u0902' suggests a creative and imaginative tone"
+        ]
+      }
+    ],
+    "desires": [
+      {
+        "content": "to attend the class or get access to the language-related content",
+        "urgency": 0.6,
+        "confidence": 0.7,
+        "timestamp": "2026-04-19T23:49:39.280573",
+        "evidence": []
+      },
+      {
+        "content": "to get a better camera or improve camera quality",
+        "urgency": 0.6,
+        "confidence": 0.7,
+        "timestamp": "2026-04-19T23:52:46.974251",
+        "evidence": []
+      },
+      {
+        "content": "to get permission to access the microphone on Instagram",
+        "urgency": 0.9,
+        "confidence": 0.8,
+        "timestamp": "2026-04-20T00:05:02.370763",
+        "evidence": []
+      },
+      {
+        "content": "to connect with someone or have a conversation",
+        "urgency": 0.5,
+        "confidence": 0.8,
+        "timestamp": "2026-04-20T00:16:40.756410",
+        "evidence": []
+      },
+      {
+        "content": "to take action on his decision",
+        "urgency": 0.9,
+        "confidence": 0.8,
+        "timestamp": "2026-04-20T00:27:48.262718",
+        "evidence": []
+      },
+      {
+        "content": "to understand the purpose or functionality of the feature",
+        "urgency": 0.8,
+        "confidence": 0.7,
+        "timestamp": "2026-04-20T16:49:41.891238",
+        "evidence": []
+      },
+      {
+        "content": "to communicate effectively with the person they are talking to",
+        "urgency": 0.6,
+        "confidence": 0.7,
+        "timestamp": "2026-04-23T20:21:05.337238",
+        "evidence": []
+      },
+      {
+        "content": "to understand the project",
+        "urgency": 0.6,
+        "confidence": 0.8,
+        "timestamp": "2026-04-23T20:49:58.848924",
+        "evidence": []
+      },
+      {
+        "content": "to know the conversation partner's opinion",
+        "urgency": 0.6,
+        "confidence": 0.9,
+        "timestamp": "2026-04-24T11:03:01.831572",
+        "evidence": []
+      },
+      {
+        "content": "to engage in a creative and imaginative conversation",
+        "urgency": 0.6,
+        "confidence": 0.7,
+        "timestamp": "2026-05-04T21:14:41.573656",
+        "evidence": []
+      }
+    ],
+    "fears": [
+      {
+        "content": "Being left behind or unable to keep up with the rapid pace of new model launches and technological advancements.",
+        "intensity": 0.5,
+        "confidence": 0.6,
+        "timestamp": "2026-04-19T23:12:39.363083"
+      },
+      {
+        "content": "being denied permission or access",
+        "intensity": 0.4,
+        "confidence": 0.3,
+        "timestamp": "2026-04-19T23:35:18.858109"
+      },
+      {
+        "content": "fear of being left behind or abandoned",
+        "intensity": 0.4,
+        "confidence": 0.5,
+        "timestamp": "2026-04-19T23:41:55.350817"
+      },
+      {
+        "content": "fear of not being able to record voice on Instagram due to permission issues",
+        "intensity": 0.6,
+        "confidence": 0.5,
+        "timestamp": "2026-04-20T00:05:02.370763"
+      }
+    ],
+    "knowledge_gaps": [
+      "The process of how new models are being developed and launched so quickly",
+      "The strategies or methods others are using to train and adapt to new models and technologies",
+      "what the permission is for",
+      "what the consequences of not getting permission are",
+      "how to balance personal and professional life",
+      "how to maintain long-term relationships",
+      "The specifics of the class or language-related content",
+      "The reason for the slip",
+      "how to improve camera quality or get a better camera",
+      "the reason behind Instagram not granting permission to access the microphone",
+      "a solution to resolve the permission issue",
+      "the specific details or functionality of the feature implemented",
+      "The current status of the meeting attendees",
+      "details about the project",
+      "the conversation partner's opinion on the topic"
+    ],
+    "communication_style": "emotional",
+    "decision_style": "deliberate",
+    "current_emotional_state": "excited and creative",
+    "last_updated": "2026-06-08T06:53:43.571996",
+    "interaction_count": 40
+  }
+}

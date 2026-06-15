@@ -1,0 +1,11 @@
+{
+  "id": "xakiMsc4DjFbpdrkH",
+  "name": null,
+  "accessed_at": "2026-03-04 20:03:32.205916+00:00",
+  "created_at": "2026-03-04 20:00:23.118405+00:00",
+  "modified_at": "2026-03-04 20:03:32.205916+00:00",
+  "had_multiple_clients": false,
+  "handled_request_count": 7,
+  "pending_request_count": 343,
+  "total_request_count": 350
+}

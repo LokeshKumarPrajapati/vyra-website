@@ -1,0 +1,53 @@
+{
+  "success": false,
+  "summary": "Task was cancelled.",
+  "action_count": 2,
+  "final_url": "https://www.youtube.com/",
+  "session_info": {
+    "session_id": "a8a4b8a7-47e",
+    "session_start": "2026-03-15T03:15:51.447673",
+    "pages_visited": 1,
+    "action_count": 2,
+    "mode": "manual",
+    "plan_steps": 1,
+    "current_step": 2,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": [
+      "https://www.youtube.com/"
+    ]
+  },
+  "actions": [
+    {
+      "id": "6e509dc1",
+      "timestamp": "2026-03-15T03:15:57.588096",
+      "action_type": "navigate",
+      "description": "https://www.youtube.com",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The task is to open YouTube, so the next action should be to navigate to the YouTube website.",
+      "confidence": 1.0,
+      "success": true,
+      "error": "",
+      "duration_ms": 4244
+    },
+    {
+      "id": "3a5cb146",
+      "timestamp": "2026-03-15T03:16:02.571255",
+      "action_type": "captcha_detected",
+      "description": "CAPTCHA/challenge page detected",
+      "url": "https://www.youtube.com/",
+      "risk": "high",
+      "thought": "",
+      "confidence": 1.0,
+      "success": true,
+      "error": "",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open youtube"
+  ]
+}

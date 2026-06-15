@@ -31,7 +31,7 @@ export default function Navbar({ progress }) {
 
         {/* CTA */}
         <button className="navbar-cta">
-          Launch Vyra <span className="cta-arrow">→</span>
+          Join Waitlist <span className="cta-arrow">→</span>
         </button>
       </div>
     </nav>

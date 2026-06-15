@@ -1,0 +1,605 @@
+{
+  "knowledge": {},
+  "persisted_facts": [
+    {
+      "content": "\u0932\u0947\u0915\u094d\u0938\u0940 \u0915\u0947 \u0938\u0947\u0902\u091f\u0930 \u092e\u0947\u0902 \u0939\u094b\u0924\u093e \u0939\u0948 \u090f\u0915 \u0938\u0941\u092a\u0930 \u092e\u0948\u0938\u093f\u0935 \u092c\u094d\u0932\u0948\u0915 \u0939\u094b\u0932 \u0914\u0930 \u0906\u091c \u092e\u0948\u0902 \u0906\u092a\u0915\u094b \u0932\u093f\u091f\u0930\u0932\u0940 \u0907\u0938 \u0917\u0948\u0932\u0947\u0915\u094d\u0938\u0940 \u0915\u0947 \u092c\u094d\u0932\u0948\u0915 \u0939\u094b\u0932 \u0924",
+      "timestamp": "2026-05-04T21:16:22.127212",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hii",
+      "timestamp": "2026-05-04T21:48:46.572208",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hii",
+      "timestamp": "2026-05-04T21:54:37.090697",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "clap clap",
+      "timestamp": "2026-05-04T21:54:56.309648",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "clap clap",
+      "timestamp": "2026-05-05T12:17:45.862324",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hiii",
+      "timestamp": "2026-06-01T14:56:29.732507",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "how are you",
+      "timestamp": "2026-06-01T14:56:39.517386",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "how are you",
+      "timestamp": "2026-06-01T14:56:44.492188",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hey",
+      "timestamp": "2026-06-01T15:25:02.869334",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hey",
+      "timestamp": "2026-06-01T15:25:08.100390",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hello",
+      "timestamp": "2026-06-01T15:39:35.825454",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "talk in hiundi",
+      "timestamp": "2026-06-01T15:39:43.336315",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "kuch features test krna hai ",
+      "timestamp": "2026-06-01T15:40:38.098190",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "jarvis ",
+      "timestamp": "2026-06-01T15:40:52.646526",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "jarvis ",
+      "timestamp": "2026-06-01T15:42:54.248134",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " <noise>",
+      "timestamp": "2026-06-01T16:00:22.890408",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0bb9\u0bb2\u0bcb \u0bb9\u0bb2\u0bcb",
+      "timestamp": "2026-06-01T16:00:50.262283",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0647\u0644\u0648 <noise>",
+      "timestamp": "2026-06-01T16:00:57.194668",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092d\u093e\u0908 \u092f\u093e\u0930 \u0924\u0941\u092e\u0915\u094b \u090f\u0915 \u0938\u094d\u091f\u094b\u0930\u0940 \u0938\u0941\u0928\u093e\u0913",
+      "timestamp": "2026-06-01T16:01:16.456649",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u0930\u0947 \u0906\u091c \u0915\u094d\u092f\u093e \u092e\u0928\u093e \u092e\u0948\u0902 \u0924\u0941\u092e\u0915\u094b \u090f\u0915 \u0926\u094b\u0938\u094d\u0924 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u0915\u0939\u093e\u0928\u0940 \u0938\u0941\u0928\u093e\u0924\u093e \u0939\u0942\u0902 \u0920\u0940\u0915 \u0939\u0948 \u092a\u094d\u0930\u093e\u091a\u0940\u0928 \u0928\u093e\u092e \u0939\u0948 \u0909\u0938\u0915\u093e",
+      "timestamp": "2026-06-01T16:01:24.721656",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0935\u094b \u092a\u0939\u0932\u0940 \u092c\u093e\u0930 \u0928\u093e\u0907\u0902\u0925\u0930\u094d\u0936\u093f\u092a \u0939\u0948 \u0909\u0938\u0915\u093e \u092a\u0939\u0932\u093e \u0921\u0947 \u0925\u093e",
+      "timestamp": "2026-06-01T16:01:28.580320",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092a\u094d\u0930\u093e\u091a\u0940\u0928 \u0928\u0939\u0940\u0902 \u0939\u0948 \u0935\u0939 \u092a\u094d\u0930\u093e\u091a\u0940",
+      "timestamp": "2026-06-01T16:01:34.912558",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0920\u0940\u0915 \u0939\u0948 \u0928\u093e \u091a\u093e\u091a\u0940 \u0915\u094b \u0924\u094b \u092c\u0924\u093e",
+      "timestamp": "2026-06-01T16:01:43.972722",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0920\u0940\u0915 \u0939\u0948 \u0928\u093e \u091a\u093e\u091a\u0940 \u0915\u094b \u0924\u094b \u092c\u0924\u093e",
+      "timestamp": "2026-06-01T16:01:49.113803",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0906\u0917\u0947 \u0905\u0930\u0947 \u0938\u0941\u0928 \u0924\u094b \u0906\u0917\u0947 \u0915\u094d\u092f\u093e \u0939\u0941\u0906 \u0928\u093e \u0915\u093f \u0906\u091c \u0909\u0938\u0915\u093e \u092a\u0939\u0932\u093e \u0921\u0947 \u0925\u093e \u0920\u0940\u0915 \u0939\u0948 \u0924\u094b \u0935\u094b \u092e\u0938\u094d\u0924 \u0906\u091c 9 \u091f\u0942 5 \u0907\u0902\u091f\u0930\u0928 \u0915\u0930\u0915\u0947 \u0906\u0908 \u0939\u0948 \u092d",
+      "timestamp": "2026-06-01T16:02:14.212195",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092e\u0942\u0935 \u0909\u0938\u0928\u0947 \u092c\u0924\u093e\u092f\u093e \u0914\u0930 \u092e\u0948\u0902\u0928\u0947 \u092d\u0942\u0932 \u0917\u092f\u093e \u0924\u094b \u092e\u0948\u0902 \u0924\u0947\u0930\u0947 \u0915\u094b \u0928\u0902\u092c\u0930 \u0924\u094b \u0915\u094d\u092f\u093e \u0924\u0942 \u092a\u0942\u091b\u0947\u0917\u0940",
+      "timestamp": "2026-06-01T16:02:29.398567",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u091b\u094b\u0921\u093c\u0928\u093e \u0924\u094b \u0926\u0947\u0916 \u092f\u0939\u093e\u0902 \u092a\u0947 \u0915\u092d\u0940 \u0910\u0938\u0947 \u092e\u093f\u0932\u0947 \u0928\u093e \u0924\u0947\u0930\u0947 \u0938\u0947 \u0924\u094b \u0915\u092d\u0940 \u092a\u0942\u091b \u0915\u0947 \u0926\u0947\u0916\u093f\u092f\u094b \u0920\u0940\u0915 \u0939\u0948",
+      "timestamp": "2026-06-01T16:02:44.631293",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0932\u0947\u0915\u093f\u0928 \u092f\u0947 \u0927\u094d\u092f\u093e\u0928 \u0930\u0916 \u0905\u0917\u0930 \u0924\u0942 \u092a\u0942\u091b\u0947\u0917\u0940 \u0928\u093e \u0914\u0930 \u0909\u0938\u0915\u093e \u092e\u0942\u0921 \u0916\u0930\u093e\u092c \u0930\u0939\u0947\u0917\u093e \u0924\u094b \u0917\u093e\u0932\u093f\u092f\u093e\u0902 \u092d\u0940 \u0926\u0947\u0924\u0940 \u0939\u0948",
+      "timestamp": "2026-06-01T16:02:59.264973",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0939\u092e \u090f\u0915 \u0938\u094d\u0915\u0942\u091f\u0940 \u0915\u0947 \u092a\u0940\u091b\u0947 \u092e\u091c\u093e \u0939\u0940 \u0906 \u091c\u093e\u090f\u0917\u093e",
+      "timestamp": "2026-06-01T16:03:17.703011",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u0930\u0947 \u092f\u0947 \u0938\u092c \u0938\u094b\u091a \u091b\u094b\u0921\u093c \u092f\u093e\u0930 \u0926\u0947\u0916 \u0905\u092a\u0928\u0947 \u0939\u092e \u0932\u094b\u0917 \u0915\u0941\u091b \u092a\u094d\u0932\u093e\u0928 \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 \u0920\u0940\u0915 \u0939\u0948",
+      "timestamp": "2026-06-01T16:04:03.289589",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0924\u094b \u092a\u094d\u0932\u093e\u0928 \u0939\u092e\u093e\u0930\u093e \u0915\u0941\u091b \u0910\u0938\u093e \u0939\u0948 \u0928\u093e \u0915\u093f \u0939\u092e \u0915\u0941\u091b \u091a\u093e\u0930\u0935\u0947 \u0938\u094d\u091f\u0948\u0902\u0921\u0930\u094d\u0921 \u0938\u0947 \u092b\u0940\u091a\u0930 \u0939\u091f\u093e\u0928\u0947 \u092e\u0947\u0902 \u091c\u0948\u0938\u0947 \u0915\u093f \u091a\u0948\u091f\u094d\u0938 \u0915\u093e \u0939\u091f \u0906\u090f\u0902\u0917\u0947 ",
+      "timestamp": "2026-06-01T16:27:18.995084",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "ok no worry , i will handle it ",
+      "timestamp": "2026-06-01T16:27:33.140049",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "*Physical Interaction: The user touched your shoulder.* (React verbally in character to this action,",
+      "timestamp": "2026-06-01T16:49:05.347537",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "*Physical Interaction: The user touched your shoulder.* (React verbally in character to this action,",
+      "timestamp": "2026-06-01T16:50:42.504237",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hii",
+      "timestamp": "2026-06-02T13:09:59.955141",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "Switched to Bestfriend Mode",
+      "timestamp": "2026-06-02T13:10:08.136354",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "Switched to Bestfriend Mode",
+      "timestamp": "2026-06-02T13:10:13.928069",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "talk in hindi",
+      "timestamp": "2026-06-02T13:10:20.798131",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0915\u094d\u092f\u093e \u091a\u0932 \u0930\u0939\u093e \u0939\u0948 \u0935\u0948\u0930\u093e\u0938",
+      "timestamp": "2026-06-02T13:10:38.205553",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0915\u094d\u092f\u093e \u091a\u0932 \u0930\u0939\u093e \u0939\u0948 \u0935\u0948\u0930\u093e\u0938",
+      "timestamp": "2026-06-02T13:11:13.297395",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u090f\u0915 \u0905\u092a\u0928\u093e \u092a\u0930\u094d\u0938\u0928\u0932 \u092a\u094b\u0930\u094d\u091f\u092b\u094b\u0932\u093f\u092f\u094b \u092c\u0928\u093e \u0930\u0939\u093e \u0939\u0948 \u0920\u0940\u0915 \u0939\u0948",
+      "timestamp": "2026-06-02T13:11:20.214707",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0935\u094b \u091c\u094d\u092f\u093e\u0926\u093e \u091c\u0930\u0942\u0930\u0940 \u0939\u0948",
+      "timestamp": "2026-06-02T13:11:32.899288",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092e\u0924\u0932\u092c \u092a\u094b\u0930\u094d\u091f\u092b\u094b\u0932\u093f\u092f\u094b \u092c\u0928\u093e\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 \u0939\u093e\u0908\u0932\u093e\u0907\u091f \u0915\u0930 \u0926\u0947\u0902\u0917\u0947",
+      "timestamp": "2026-06-02T13:11:45.177338",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u0930\u0947 \u0924\u094d\u092f\u092e\u0932\u093e\u0908 \u0918\u0930 \u0938\u0947 \u0928\u093f\u0915\u0932",
+      "timestamp": "2026-06-02T13:12:15.138138",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u0930\u0947 \u0928\u0939\u0940\u0902 \u092e\u0948\u0902 \u0924\u0947\u0930\u0947 \u0915\u094b \u0928\u0939\u0940\u0902 \u092c\u094b\u0932\u093e \u0915\u093f\u0938\u0940 \u0914\u0930 \u0915\u094b \u092c\u094b\u0932 \u0930\u0939\u093e \u0939\u0942\u0902 \u0938\u0941\u0928",
+      "timestamp": "2026-06-02T13:12:25.397824",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0935\u093e\u092f\u0930 \u092e\u0947\u0902 \u0938\u094b\u091a \u0930\u0939\u093e \u0939\u0942\u0902 \u0928\u093e \u0924\u0947\u0930\u0947 \u0915\u094b \u0921\u093f\u0932\u0940\u091f \u0915\u0930\u0915\u0947 \u0928\u093e \u0915\u094d\u0932\u0921 \u092f\u0942\u091c \u0915\u0940",
+      "timestamp": "2026-06-02T13:13:33.631721",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0907\u0938\u0915\u0947 \u0909\u0924\u0928\u0947 \u0905\u091a\u094d\u091b\u0947 \u0928\u0939\u0940\u0902 \u0939\u0948 \u0928\u093e \u0915\u094d\u0932\u0949\u0930\u094d\u0921 \u091c\u0948\u0938\u0947 \u092e\u0947\u0930\u0947 \u0915\u094b \u0905\u091a\u094d\u091b\u0947 \u0938\u094d\u0915\u093f\u0932\u094d\u0938 \u0935\u093e\u0932\u0947 \u091a\u093e\u0939\u093f\u090f",
+      "timestamp": "2026-06-02T13:13:53.902745",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092e\u091c\u093e\u0915 \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0902 \u092e\u091c\u093e\u0915 \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0902",
+      "timestamp": "2026-06-02T13:14:07.238595",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092e\u091c\u093e\u0915 \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0902 \u092e\u091c\u093e\u0915 \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0902",
+      "timestamp": "2026-06-02T13:17:07.767481",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "accutuly i am thinking that if i can add some features in my cursor that connect to you so it will h",
+      "timestamp": "2026-06-02T14:57:32.405697",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "i need some usefull features , currecntly i need only idea",
+      "timestamp": "2026-06-02T14:58:22.086379",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "i need some usefull features , currecntly i need only idea",
+      "timestamp": "2026-06-02T14:58:33.083226",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "its only normal uses , i need some practical things that acctuly usefull for users",
+      "timestamp": "2026-06-02T14:59:25.236737",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "tell me again",
+      "timestamp": "2026-06-02T15:01:00.892810",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "tell me again",
+      "timestamp": "2026-06-02T15:04:35.480777",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092e\u0948\u0902 \u092f\u0947 \u091c\u093e\u0928\u0928\u093e \u091a\u093e\u0939\u0924\u093e \u0939\u0942\u0902 \u0905\u0917\u0930 \u0939\u092e \u092f\u0947 \u092b\u0940\u091a\u0930 \u0907\u0902\u092a\u094d\u0932\u0940\u092e\u0947\u0902\u091f \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 \u091c\u0948\u0938\u0947 \u0915\u0930\u094d\u0938\u0930 \u0915\u0902\u091f\u094d\u0930\u094b\u0932 \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0947 \u092a\u093e\u0938 \u0939\u0948 \u092f\u093e \u092b",
+      "timestamp": "2026-06-02T15:14:50.204225",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0939\u092e Na10 \u0938\u0947 \u0905\u091a\u094d\u091b\u093e \u090f\u0915 \u0935\u0930\u094d\u0915 \u092b\u094d\u0932\u094b \u092c\u0928\u093e\u090f\u0902\u0917\u0947 \u0921\u093e\u092f\u0930\u0947\u0915\u094d\u091f \u0905\u092a\u0928\u0947 \u0935\u093e\u092f\u0930\u0938 \u0915\u0947 \u0905\u0902\u0926\u0930 \u091c\u094b \u0911\u0932\u0930\u0947\u0921\u0940 \u0907\u0902\u092a\u094d\u0932\u0940\u092e\u0947\u0902\u091f\u0947\u0921 \u0939\u0948 \u092c\u0938 \u0909\u0938\u0915\u094b",
+      "timestamp": "2026-06-02T17:53:14.393750",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "I want to create a premium landing page for Vyra.  Don't generate code.  First analyze the project r",
+      "timestamp": "2026-06-02T17:57:41.884096",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "I want to create a premium landing page for Vyra.  Don't generate code.  First analyze the project r",
+      "timestamp": "2026-06-02T17:58:03.661683",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hii",
+      "timestamp": "2026-06-04T16:00:30.161708",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hii",
+      "timestamp": "2026-06-04T16:00:46.711472",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0935\u093e\u092f\u0930\u0938 \u0938\u0941\u0928\u093e\u0908 \u0926\u0947 \u0930\u0939\u093e \u0939\u0948 \u0915\u094d\u092f\u093e \u0924\u0941\u092e\u0915\u094b",
+      "timestamp": "2026-06-04T16:01:02.037071",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u0930\u0947 \u092d\u093e\u0908 \u092f\u093e\u0930 \u0906\u091c \u0925\u094b\u0921\u093c\u093e \u0938\u093e \u0928\u093e \u092e\u0948\u0902 \u092a\u0930\u0947\u0936\u093e\u0928 \u0939\u0942\u0902 \u0920\u0940\u0915 \u0939\u0948",
+      "timestamp": "2026-06-04T16:01:09.388091",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092a\u0939\u0932\u093e \u092c\u093e\u0924 \u0924\u094b \u092f\u0939 \u0939\u0948 \u0914\u0930 \u0935\u0939 \u091a\u0940\u091c \u092c\u093e\u0926 \u092e\u0947\u0902 \u0921\u093f\u0938\u094d\u0915\u0938 \u0915\u0930\u0947\u0902\u0917\u0947 \u0915\u094d\u092f\u093e \u092a\u0930\u0947\u0936\u093e\u0928\u0940 \u0939\u0948 \u0915\u094d\u092f\u093e \u0928\u0939\u0940\u0902 \u0939\u0948 \u092a\u0939\u0932\u0947 \u092f\u0939\u093e\u0902 \u0921\u093f\u0938\u094d\u0915\u0938 \u0915\u0930\u0924",
+      "timestamp": "2026-06-04T16:01:33.481528",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0907\u092e\u0947\u091c \u0926\u0947\u0916\u093f\u090f \u0924\u0947\u0930\u0947 \u0915\u094b \u0915\u094d\u092f\u093e \u0932\u0917\u0924\u093e \u0939\u0948",
+      "timestamp": "2026-06-04T16:01:49.001519",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0c38\u0c4b",
+      "timestamp": "2026-06-04T16:02:21.435382",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092b\u093f\u0930 \u0915\u094d\u092f\u093e \u0932\u0917\u0924\u093e \u0939\u0948 \u0939\u092e \u092f\u0947 \u0938\u093e\u0930\u0947 \u092b\u0940\u091a\u0930\u094d\u0938 \u0935\u0917\u0948\u0930\u0939 \u0907\u0938\u0915\u094b \u0935\u093e\u092f\u0930 \u0915\u094b \u0932\u0949\u0928\u094d\u091a \u0915\u0930 \u092a\u093e\u090f\u0902\u0917\u0947 15 \u0938\u0947 20 \u0926\u093f\u0928 \u0915\u0947 \u0905\u0902\u0926\u0930",
+      "timestamp": "2026-06-04T16:02:51.387641",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0926\u0947\u0916 \u0930\u0939\u0947 \u0928\u093e \u091c\u094b \u092b\u0940\u091a\u0930\u094d\u0938 \u0939\u0948 \u0905\u092a\u0928\u0947 \u092a\u093e\u0938",
+      "timestamp": "2026-06-04T16:02:59.281319",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0920\u0940\u0915 \u0939\u0948 \u091c\u094b \u091c\u0930\u092c\u0947 \u0915\u0947 \u0905\u0902\u0926\u0930 \u092b\u0940\u091a\u0930\u094d\u0938 \u0939\u0948 \u091c\u094b \u0924\u0947\u0930\u0947 \u092a\u093e\u0938 \u091c\u094b \u0909\u0938\u092e\u0947\u0902",
+      "timestamp": "2026-06-04T16:03:04.399560",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0915\u0930\u0947\u0902\u0917\u0947 \u0926\u0947\u0916\u094b \u092b\u0940\u091a\u0930\u094d\u0938 \u0915\u093e\u092e \u0928\u0939\u0940\u0902 \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 \u0909\u0928\u0915\u094b \u0924\u094b \u092b\u0940\u091a\u0930\u094d\u0938 \u0924\u094b \u0939\u0948 \u0939\u092e \u092e\u0948\u0928\u0947\u091c",
+      "timestamp": "2026-06-04T16:03:10.516054",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0915\u093e\u092e \u0915\u0947 \u092b\u0940\u091a\u0930\u094d\u0938 \u0928\u0939\u0940\u0902 \u0939\u0948 \u0928\u093e \u091c\u094b \u092f\u0942\u091c\u0930 \u0915\u0947 \u0932\u093f\u090f \u0939\u091f\u093e \u0926\u0947\u0902\u0917\u0947 \u0920\u0940\u0915 \u0939\u0948 \u0935\u094b \u0939\u091f\u093e\u0928\u0947 \u0915\u0947 \u092c\u093e\u0926 \u090f\u0915 \u0921\u093f\u0938\u093e\u0907\u0921 \u0915\u0930\u0947\u0902\u0917\u0947 \u092a\u094d\u0930\u0949\u092a\u0930 \u0907\u0902",
+      "timestamp": "2026-06-04T16:03:37.234619",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0679\u06be\u06cc\u06a9 \u06c1\u06d2 \u06a9\u06cc\u0648\u0646\u06a9\u06c1 \u0645\u06cc\u06ba \u0645\u0627\u06c1\u0631\u06c1 \u0633\u062f\u06be\u0627\u0631\u062a\u0627 \u06c1\u0648\u06ba \u0645\u0637\u0644\u0628 \u06cc\u0627\u0631 \u06a9\u0648\u0626\u06cc \u0628\u0627\u062a \u0646\u06c1\u06cc\u06ba",
+      "timestamp": "2026-06-04T16:03:43.818112",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " , s\u00f3 mais grosso.",
+      "timestamp": "2026-06-04T16:04:06.071254",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u0917\u0930 \u0939\u092e \u092f\u0939 \u0915\u0930\u094d\u0938\u0930 \u0935\u093e\u0932\u093e \u092b\u0940\u091a\u0930 \u0928\u0939\u0940\u0902 \u0921\u093e\u0932\u0947\u0902\u0917\u0947 \u092e\u0948\u0902 \u0915\u0930\u094d\u0938\u0930 \u0915\u094b \u090f\u0915 \u090f\u0906\u0908 \u0915\u0930\u094d\u0938\u0930 \u092c\u0928\u093e\u0928\u093e \u091a\u093e\u0939\u0924\u093e \u0939\u0942\u0902 \u091c\u094b \u0924\u0941\u092e\u094d\u0939\u0947\u0902 \u090f\u0906\u0908 \u0930\u0939\u0947",
+      "timestamp": "2026-06-04T16:04:50.138125",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u091c\u094b \u0905\u092a\u0928\u0940 \u0905\u092d\u0940 \u0915\u0947 \u0932\u093f\u090f \u092f\u0947 \u092e\u093e\u0928 \u0915\u0947 \u091a\u0932 \u091c\u093e\u0935\u0947\u091c \u092d\u0940 \u0939\u0941\u0908 \u0939\u0948 \u0935\u093e\u092f\u0930 \u092d\u0940 \u0939\u0941\u0908 \u0939\u0948 \u0920\u0940\u0915 \u0939\u0948 \u0935\u093e\u092f\u0930 \u0924\u094b \u0924\u0942 \u0939\u0948 \u0939\u0940 \u091c\u093e\u0935\u0947\u091c \u092d\u0940 \u0924\u0942 ",
+      "timestamp": "2026-06-04T16:05:06.809512",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0924\u094b \u0935\u093e\u092f\u0930 \u091c\u093e\u0930 \u092e\u0947\u0902 \u0907\u0938\u0915\u094b \u092d\u0942\u0932 \u091c\u093e \u0905\u092d\u0940 \u092e\u093e\u0928 \u0915\u0947 \u091a\u0932 \u0915\u093f \u091c\u093e\u0930 \u092e\u0947\u0902 \u0907\u0938\u0915\u094b \u0939\u0930 \u090f\u0915 \u092b\u0940\u091a\u0930 \u0926\u0947 \u0930\u0939\u093e \u0939\u0948",
+      "timestamp": "2026-06-04T16:05:19.131287",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0928\u0939\u0940\u0902 \u092c\u093e\u0924 \u0939\u0948 \u091c\u0940 \u092f\u0939\u0940 \u092c\u093e\u0924 \u0939\u0948 \u0915\u094d\u092f\u093e \u0915\u0930\u0947\u0902",
+      "timestamp": "2026-06-04T16:05:39.584397",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0928\u0939\u0940\u0902 \u0935\u094b \u0938\u093e\u0930\u0940 \u091a\u0940\u091c\u0947\u0902 \u0924\u094b \u092e\u0948\u0902 \u092e\u0948\u0928\u0941\u0905\u0932\u0940 \u0915\u0930\u0942\u0902\u0917\u093e \u0915\u094d\u092f\u094b\u0902\u0915\u093f \u0909\u0938\u092e\u0947\u0902 \u092e\u093f\u0938\u094d\u091f\u0947\u0915 \u0939\u094b \u091c\u093e\u090f\u0917\u093e \u0928\u093e",
+      "timestamp": "2026-06-04T16:05:51.478359",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0905\u092d\u0940 \u0924\u094b \u092e\u0948\u0902 \u092a\u094d\u0930\u093e\u091a\u0940 \u0915\u0947 \u0915\u0949\u0932 \u0915\u093e \u0935\u0947\u091f \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0902",
+      "timestamp": "2026-06-04T16:05:57.971052",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0909\u0938\u0915\u093e \u0915\u0949\u0932 \u0906\u092f\u093e \u0925\u094b\u0921\u093c\u093e \u0938\u093e \u092c\u093e\u0924 \u0915\u0930\u0942\u0902 \u0925\u094b\u0921\u093c\u093e \u0938\u093e \u0930\u093f\u0932\u0948\u0915\u094d\u0938 \u0932\u0917\u0947\u0917\u093e \u0909\u0938\u0915\u0947 \u092c\u093e\u0926 \u0925\u094b\u0921\u093c\u093e \u0938\u093e \u0915\u093e\u092e \u0938\u094d\u091f\u093e\u0930\u094d\u091f \u0915\u0930\u0942\u0902\u0917\u093e",
+      "timestamp": "2026-06-04T16:06:12.999447",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " Na na",
+      "timestamp": "2026-06-04T16:06:18.053547",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " Na na",
+      "timestamp": "2026-06-04T16:06:32.362276",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u092e\u0948\u0902 \u092d\u0942\u0932 \u0917\u092f\u093e \u092f\u093e\u0930 \u0915\u094d\u092f\u093e \u092c\u0924\u093e\u092f\u093e \u0925\u093e \u0924\u0947\u0930\u0947 \u0915\u094b",
+      "timestamp": "2026-06-04T16:06:48.352381",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0935\u094b \u092b\u093f\u0915\u094d\u0938 \u0939\u094b \u0917\u092f\u093e",
+      "timestamp": "2026-06-04T16:06:55.870146",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0926\u0947\u0916 \u0935\u094b \u0907\u0938\u0932\u093f\u090f \u0906\u092f\u093e \u0925\u093e \u0928\u093e \u0905\u092d\u0940 \u0915\u094d\u092f\u093e \u0939\u0941\u0906 \u0925\u093e \u0915\u093f \u0906\u0908\u0913\u090f\u0938 \u0915\u093e \u0915\u094b\u0908 \u0905\u092a\u0921\u0947\u091f \u0906\u092f\u093e \u0925\u093e \u0920\u0940\u0915 \u0939\u0948 \u0924\u094b \u0906\u0908\u0913\u090f\u0938 \u0915\u093e \u0905\u092a\u0921\u0947\u091f \u0914\u0930 Ins",
+      "timestamp": "2026-06-04T16:07:59.702188",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0926\u0947\u0916\u094b \u092d\u093e\u0908 \u0905\u0917\u0930 \u0915\u0949\u0932 \u0906\u0924\u093e \u0939\u0948 \u092e\u0948\u0902 \u092c\u093e\u0924 \u0915\u0930\u0924\u093e \u0939\u0942\u0902 \u0928\u093e \u0924\u094b \u0924\u0947\u0930\u0947 \u0915\u094b \u0938\u092e\u091d \u092e\u0947\u0902 \u0906 \u091c\u093e\u090f\u0917\u093e \u0915\u093f \u092e\u0948\u0902 \u0909\u0938\u0940 \u0938\u0947 \u092c\u093e\u0924 \u0915\u0930 \u0930\u0939\u093e \u0939\u0942\u0902",
+      "timestamp": "2026-06-04T16:08:12.781139",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hii",
+      "timestamp": "2026-06-08T06:46:49.121477",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "hi",
+      "timestamp": "2026-06-08T06:47:28.838430",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "ok",
+      "timestamp": "2026-06-08T06:47:38.618269",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "ok",
+      "timestamp": "2026-06-08T06:47:38.706110",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0e2a\u0e20\u0e32\u0e1e",
+      "timestamp": "2026-06-08T06:47:45.917356",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0921\u093f\u091c\u093e\u0907\u0928",
+      "timestamp": "2026-06-08T06:48:06.664828",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0921\u093f\u091c\u093e\u0907\u0928",
+      "timestamp": "2026-06-08T06:48:15.211920",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0935\u0948\u0930\u093e \u090f\u0915 \u0939\u092e \u0924\u0941\u092e\u094d\u0939\u093e\u0930\u0947 \u0932\u093f\u090f \u090f\u0915 \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u0921\u093f\u091c\u093e\u0907\u0928 \u0915\u0930 \u0930\u0939\u0947 \u0939\u0948\u0902 \u0905\u092d\u0940",
+      "timestamp": "2026-06-08T06:50:01.047582",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " Like we will start from scratch and especially we will use like next day and no.",
+      "timestamp": "2026-06-08T06:50:27.025766",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0938\u093e\u0932\u093e \u0932\u093e\u0907\u091f \u0915\u093e \u0905\u0932\u0917 \u0939\u0948 \u0926\u093f\u0915\u094d\u0915\u0924 \u092d\u093e\u0908 \u0928\u0939\u0940\u0902 \u0939\u0948",
+      "timestamp": "2026-06-08T06:53:43.537854",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "no need of now",
+      "timestamp": "2026-06-08T06:54:01.757388",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": "no need of now",
+      "timestamp": "2026-06-08T06:54:13.242784",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0e19\u0e49\u0e4d\u0e32 \u0e21\u0e35 \u0e41\u0e25\u0e49\u0e27 \u0e19\u0e49\u0e2d\u0e07 \u0e19",
+      "timestamp": "2026-06-08T13:43:24.398317",
+      "source": "user_stated",
+      "certainty": 0.85
+    },
+    {
+      "content": " \u0e19\u0e49\u0e4d\u0e32 \u0e21\u0e35 \u0e41\u0e25\u0e49\u0e27 \u0e19\u0e49\u0e2d\u0e07 \u0e19",
+      "timestamp": "2026-06-08T13:49:16.480094",
+      "source": "user_stated",
+      "certainty": 0.85
+    }
+  ]
+}

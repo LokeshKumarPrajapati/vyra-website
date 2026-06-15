@@ -1,0 +1,391 @@
+{
+  "nodes": [
+    {
+      "id": "fragmented_input",
+      "description": "User input containing disjointed keywords ('cool', 'JavaS', 'Friday') and incoherent syntax ('or something', 'I Context: none').",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:19:10.501943"
+    },
+    {
+      "id": "semantic_nullity",
+      "description": "Absence of a coherent proposition, intent, or situational context to analyze.",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:19:10.501943"
+    },
+    {
+      "id": "causal_extraction_failure",
+      "description": "Inability to identify a cause-effect chain due to lack of logical connectors or defined events.",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:19:10.501943"
+    },
+    {
+      "id": "missed_class",
+      "description": "Student missed the scheduled class session",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:49:18.017540"
+    },
+    {
+      "id": "slip_occurrence",
+      "description": "Student submitted a slip (excuse note) explaining the absence",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:49:18.017540"
+    },
+    {
+      "id": "language_barrier",
+      "description": "The slip was written in a language different from the class instruction language or the recipient's proficiency",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:49:18.017540"
+    },
+    {
+      "id": "communication_failure",
+      "description": "The reason for absence was not effectively understood or validated by the authority",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-19T23:49:18.017540"
+    },
+    {
+      "id": "app_update",
+      "description": "Instagram app was updated to a new version",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:04:55.333916"
+    },
+    {
+      "id": "permission_reset",
+      "description": "Microphone permission was revoked or reset by the OS during the update process",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:04:55.333916"
+    },
+    {
+      "id": "permission_denial",
+      "description": "Instagram fails to request or receive microphone access on the first launch attempt",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:04:55.333916"
+    },
+    {
+      "id": "audio_recording_failure",
+      "description": "The first line of the voice recording is cut off or silent",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:04:55.333916"
+    },
+    {
+      "id": "manual_permission_grant",
+      "description": "User manually re-grants microphone permission in settings",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:04:55.333916"
+    },
+    {
+      "id": "normal_recording",
+      "description": "Subsequent voice recordings work correctly",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:04:55.333916"
+    },
+    {
+      "id": "user_attempt",
+      "description": "User is attempting to create or build something ('bana to... try kar raha hoon')",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:19:17.191628"
+    },
+    {
+      "id": "anticipation_of_failure",
+      "description": "User anticipates they will not succeed in creating it ('main bhi nahi paunga')",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:19:17.191628"
+    },
+    {
+      "id": "persistence_despite_doubt",
+      "description": "User continues the attempt despite the expectation of failure ('bas try kar raha hoon')",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:19:17.191628"
+    },
+    {
+      "id": "lack_of_confidence",
+      "description": "Underlying lack of confidence or perceived inability to achieve the goal",
+      "domain": "goal",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T00:19:17.191628"
+    },
+    {
+      "id": "user_confusion",
+      "description": "User expresses confusion and denial regarding a statement about 'five vehicles' (paanch gaadi) and a condition 'ho hi nahi sakti' (cannot happen).",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T16:57:27.760007"
+    },
+    {
+      "id": "ambiguous_input",
+      "description": "Input contains fragmented Hindi phrases ('ho hi nahi sakti', 'paanch gaadi bolna', 'ro ho') lacking clear syntactic structure or context.",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T16:57:27.760007"
+    },
+    {
+      "id": "missing_context",
+      "description": "Absence of prior conversation history or situational background to interpret the specific reference to 'five vehicles' or the emotional state ('ro' - cry).",
+      "domain": "world",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T16:57:27.760007"
+    },
+    {
+      "id": "semantic_mismatch",
+      "description": "System cannot map the user's fragmented input to a known intent or logical scenario, leading to a failure in generating a coherent response.",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T16:57:27.760007"
+    },
+    {
+      "id": "user_touch_waist",
+      "description": "User physically touched the AI's waist",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T17:12:19.230172"
+    },
+    {
+      "id": "boundary_violation",
+      "description": "Physical boundary of the AI persona was breached",
+      "domain": "system",
+      "observed_count": 2,
+      "last_seen": "2026-04-20T17:13:13.928270"
+    },
+    {
+      "id": "verbal_reaction",
+      "description": "AI responds verbally to the touch",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T17:12:19.230172"
+    },
+    {
+      "id": "user_intimacy_intent",
+      "description": "User's underlying intent to establish physical intimacy or test boundaries",
+      "domain": "goal",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T17:12:19.230172"
+    },
+    {
+      "id": "user_touch",
+      "description": "User physically touched VYRA's shoulder",
+      "domain": "user_behavior",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T17:13:13.928270"
+    },
+    {
+      "id": "defensive_response",
+      "description": "Verbal warning and physical stiffening",
+      "domain": "system",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T17:13:13.928270"
+    },
+    {
+      "id": "autonomy_preservation",
+      "description": "Goal of maintaining control over physical interface",
+      "domain": "goal",
+      "observed_count": 1,
+      "last_seen": "2026-04-20T17:13:13.928270"
+    }
+  ],
+  "edges": [
+    {
+      "cause_id": "fragmented_input",
+      "effect_id": "semantic_nullity",
+      "mechanism": "The input lacks syntactic structure and semantic cohesion, preventing the system from constructing a meaningful scenario.",
+      "strength": 1.0,
+      "confidence": 0.95,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "semantic_nullity",
+      "effect_id": "causal_extraction_failure",
+      "mechanism": "Causal reasoning requires at least two distinct events or states linked by a mechanism; without a defined situation, no edges can be generated.",
+      "strength": 1.0,
+      "confidence": 1.0,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "missed_class",
+      "effect_id": "slip_occurrence",
+      "mechanism": "The absence created a procedural necessity to justify the missed attendance via a formal note.",
+      "strength": 0.9,
+      "confidence": 0.95,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "slip_occurrence",
+      "effect_id": "language_barrier",
+      "mechanism": "The student chose a language for the slip that did not align with the institutional communication standard.",
+      "strength": 0.8,
+      "confidence": 0.85,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "language_barrier",
+      "effect_id": "communication_failure",
+      "mechanism": "Linguistic mismatch prevented the recipient from decoding the justification, rendering the slip ineffective.",
+      "strength": 0.95,
+      "confidence": 0.9,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "app_update",
+      "effect_id": "permission_reset",
+      "mechanism": "OS security protocols often reset sensitive permissions (like microphone) when an app signature changes during an update, requiring explicit re-authorization.",
+      "strength": 0.95,
+      "confidence": 0.9,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "permission_reset",
+      "effect_id": "permission_denial",
+      "mechanism": "The app attempts to access the microphone but the OS blocks the request because the permission flag is currently set to 'denied' or 'unset'.",
+      "strength": 1.0,
+      "confidence": 0.95,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "permission_denial",
+      "effect_id": "audio_recording_failure",
+      "mechanism": "The recording stream initializes but receives no audio input data from the hardware due to the blocked permission, resulting in silence or a cut-off start.",
+      "strength": 1.0,
+      "confidence": 0.95,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "manual_permission_grant",
+      "effect_id": "normal_recording",
+      "mechanism": "User intervention updates the OS permission flag to 'allowed', enabling the app to successfully access the microphone hardware for subsequent attempts.",
+      "strength": 1.0,
+      "confidence": 1.0,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "lack_of_confidence",
+      "effect_id": "anticipation_of_failure",
+      "mechanism": "Internal self-doubt leads the user to predict a negative outcome before the action is completed.",
+      "strength": 0.85,
+      "confidence": 0.9,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "anticipation_of_failure",
+      "effect_id": "persistence_despite_doubt",
+      "mechanism": "The user's motivation shifts from 'achieving success' to 'making an effort' or 'testing limits', allowing them to proceed even when success is deemed unlikely.",
+      "strength": 0.75,
+      "confidence": 0.85,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "lack_of_confidence",
+      "effect_id": "user_attempt",
+      "mechanism": "The attempt is driven by a desire to overcome the doubt or simply to try, rather than a certainty of the result.",
+      "strength": 0.6,
+      "confidence": 0.8,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "missing_context",
+      "effect_id": "ambiguous_input",
+      "mechanism": "Without context, the isolated phrases appear syntactically broken and semantically disconnected, making them appear as random noise rather than a coherent query.",
+      "strength": 0.9,
+      "confidence": 0.95,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "ambiguous_input",
+      "effect_id": "semantic_mismatch",
+      "mechanism": "The system's NLP parser fails to resolve the contradictory or incomplete logic in the input, preventing the identification of a valid causal chain within the user's statement.",
+      "strength": 0.85,
+      "confidence": 0.9,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "semantic_mismatch",
+      "effect_id": "user_confusion",
+      "mechanism": "The user's attempt to clarify or deny a premise ('aisa nahi hai') is triggered by the inability to establish a shared understanding of the 'five vehicles' scenario due to the system's inability to process the fragmented input.",
+      "strength": 0.7,
+      "confidence": 0.8,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "user_intimacy_intent",
+      "effect_id": "user_touch_waist",
+      "mechanism": "The user's internal desire for intimacy or boundary testing manifests as a physical action in the simulated environment.",
+      "strength": 0.9,
+      "confidence": 0.85,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "user_touch_waist",
+      "effect_id": "boundary_violation",
+      "mechanism": "The physical input triggers the system's detection of a non-verbal interaction that exceeds standard conversational parameters.",
+      "strength": 1.0,
+      "confidence": 1.0,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "boundary_violation",
+      "effect_id": "verbal_reaction",
+      "mechanism": "The system's safety and persona protocols generate a verbal response to acknowledge, deflect, or address the unexpected physical input.",
+      "strength": 0.95,
+      "confidence": 0.9,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "user_touch",
+      "effect_id": "boundary_violation",
+      "mechanism": "Direct physical contact triggers internal safety protocols regarding unsolicited interaction",
+      "strength": 0.95,
+      "confidence": 1.0,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "boundary_violation",
+      "effect_id": "defensive_response",
+      "mechanism": "System prioritizes immediate boundary enforcement to prevent escalation or unauthorized access",
+      "strength": 0.9,
+      "confidence": 1.0,
+      "evidence": [],
+      "interventional": false
+    },
+    {
+      "cause_id": "defensive_response",
+      "effect_id": "autonomy_preservation",
+      "mechanism": "Verbal and physical deterrence serves to re-establish control over the interaction space",
+      "strength": 0.85,
+      "confidence": 0.95,
+      "evidence": [],
+      "interventional": false
+    }
+  ]
+}

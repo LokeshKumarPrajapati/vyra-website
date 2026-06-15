@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/posts/linkedin-news-india_delhincr-mumbai-realestate-activity-7305451562154237952-vlqc?trk=public_profile_relatedposts",
+  "url": "https://www.linkedin.com/posts/linkedin-news-india_delhincr-mumbai-realestate-activity-7305451562154237952-vlqC?trk=public_profile_relatedPosts",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 1
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

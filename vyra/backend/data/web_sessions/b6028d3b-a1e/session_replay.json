@@ -1,0 +1,64 @@
+{
+  "success": false,
+  "summary": "Task was cancelled.",
+  "action_count": 3,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "b6028d3b-a1e",
+    "session_start": "2026-03-15T03:12:47.561505",
+    "pages_visited": 0,
+    "action_count": 3,
+    "mode": "semi_auto",
+    "plan_steps": 1,
+    "current_step": 4,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "bffdaa81",
+      "timestamp": "2026-03-15T03:12:53.979165",
+      "action_type": "navigate",
+      "description": "https://www.chatgpt.com",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The task is to open ChatGPT, so the next action should be to navigate to the ChatGPT website.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 0
+    },
+    {
+      "id": "54a88dbd",
+      "timestamp": "2026-03-15T03:12:59.026033",
+      "action_type": "wait",
+      "description": "5",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The page has not loaded yet, so the next action should be to wait for the ChatGPT website to fully load.",
+      "confidence": 0.8,
+      "success": true,
+      "error": "",
+      "duration_ms": 0
+    },
+    {
+      "id": "dcee918e",
+      "timestamp": "2026-03-15T03:13:04.302918",
+      "action_type": "click",
+      "description": "click",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The page has loaded, so the next action should be to click on the element that opens the ChatGPT interface.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open chatgpt"
+  ]
+}

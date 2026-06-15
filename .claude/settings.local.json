@@ -2,7 +2,19 @@
   "permissions": {
     "allow": [
       "Bash(gh auth *)",
-      "Bash(gh --version)"
+      "Bash(gh --version)",
+      "Bash(gh api *)",
+      "Bash(python -c \"import sys,json; [print\\(x['name']\\) for x in json.load\\(sys.stdin\\)]\")",
+      "Bash(npm install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s \"http://localhost:5174/src/components/HeroSection.jsx\")",
+      "Bash(curl -s \"http://localhost:5174/src/lib/geminiLive.js\")",
+      "Bash(curl -s \"http://localhost:5174/src/components/Live2DViewer.jsx\")",
+      "Bash(curl -s \"http://localhost:5174/@vite/client\" -o /dev/null -w \"%{http_code}\")",
+      "Bash(curl -s \"http://localhost:5174/src/main.jsx\")",
+      "Bash(npm run *)"
     ]
   }
 }

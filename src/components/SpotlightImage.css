@@ -1,0 +1,57 @@
+/* ── Wrapper ──────────────────────────────────────────────────────────────── */
+.si-container {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+/* ── Base layer: completely invisible — nothing shows without cursor ──────── */
+.si-base {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: multiply;
+  opacity: 0;
+}
+
+/* ── Reveal layer: only shows where the mouse is, nowhere else ───────────── */
+.si-reveal {
+  position: absolute;
+  inset: 0;
+  mix-blend-mode: multiply;
+  opacity: 0.55;
+
+  --mx: 50%;
+  --my: 50%;
+
+  /* Medium ellipse, very feathered edges so no hard circle is ever seen.
+     Outside the gradient = 100% transparent = image completely hidden.       */
+  -webkit-mask-image: radial-gradient(ellipse 380px 300px at var(--mx) var(--my),
+      black 0%,
+      rgba(0, 0, 0, 0.90) 15%,
+      rgba(0, 0, 0, 0.65) 35%,
+      rgba(0, 0, 0, 0.30) 58%,
+      rgba(0, 0, 0, 0.08) 78%,
+      transparent 100%);
+  mask-image: radial-gradient(ellipse 380px 300px at var(--mx) var(--my),
+      black 0%,
+      rgba(0, 0, 0, 0.90) 15%,
+      rgba(0, 0, 0, 0.65) 35%,
+      rgba(0, 0, 0, 0.30) 58%,
+      rgba(0, 0, 0, 0.08) 78%,
+      transparent 100%);
+
+  will-change: mask-position;
+}
+
+/* ── Image fills its wrapper ─────────────────────────────────────────────── */
+.si-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}

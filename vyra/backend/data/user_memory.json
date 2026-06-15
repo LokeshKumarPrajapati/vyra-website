@@ -1,0 +1,1609 @@
+{
+  "primary_user_id": "Lokesh",
+  "display_name": "Lokesh",
+  "important_people": [
+    {
+      "name": "राम",
+      "relation": "friend",
+      "notes": "भाई",
+      "first_mentioned": 1774773223.4243677,
+      "last_mentioned": 1774773223.4243677,
+      "importance": 3
+    },
+    {
+      "name": "Abhishek",
+      "relation": "unknown",
+      "notes": "User searched for Abhishek in contacts.",
+      "first_mentioned": 1774900507.8744855,
+      "last_mentioned": 1775085659.067467,
+      "importance": 3
+    },
+    {
+      "name": "Mummy Devil",
+      "relation": "family",
+      "notes": "Lokesh's mother",
+      "first_mentioned": 1774900507.878745,
+      "last_mentioned": 1775101944.5588365,
+      "importance": 3
+    },
+    {
+      "name": "Ma'am",
+      "relation": "unknown",
+      "notes": "Lokesh needs to talk to her about something.",
+      "first_mentioned": 1774974335.9915767,
+      "last_mentioned": 1775079352.9077156,
+      "importance": 3
+    },
+    {
+      "name": "Abhinav",
+      "relation": "family",
+      "notes": "Referred to as 'Abhinav bhaiya'",
+      "first_mentioned": 1775079352.9275422,
+      "last_mentioned": 1775677426.1318924,
+      "importance": 3
+    },
+    {
+      "name": "Chota Bhai",
+      "relation": "family",
+      "notes": "Lokesh's younger brother",
+      "first_mentioned": 1775085355.1134574,
+      "last_mentioned": 1775085355.1134574,
+      "importance": 3
+    },
+    {
+      "name": "section F",
+      "relation": "unknown",
+      "notes": "mentioned as a source of messages",
+      "first_mentioned": 1775085563.2379549,
+      "last_mentioned": 1775085563.2379549,
+      "importance": 3
+    },
+    {
+      "name": "Rohit",
+      "relation": "bhaiya",
+      "notes": "Addressed as 'Rohit bhaiya'",
+      "first_mentioned": 1775085659.096103,
+      "last_mentioned": 1775108735.9141681,
+      "importance": 3
+    },
+    {
+      "name": "Muhammad",
+      "relation": "unknown",
+      "notes": "mentioned by user",
+      "first_mentioned": 1775085659.1204517,
+      "last_mentioned": 1775112515.703213,
+      "importance": 3
+    },
+    {
+      "name": "Chhota Bhai",
+      "relation": "family",
+      "notes": "Lokesh's little brother",
+      "first_mentioned": 1775108735.9073822,
+      "last_mentioned": 1775108735.9073822,
+      "importance": 3
+    },
+    {
+      "name": "Aviv",
+      "relation": "unspecified",
+      "notes": "mentioned in context of 'scope'",
+      "first_mentioned": 1775112515.6923375,
+      "last_mentioned": 1775678191.4660268,
+      "importance": 3
+    },
+    {
+      "name": "Likhithsai2580",
+      "relation": "developer",
+      "notes": "GitHub user",
+      "first_mentioned": 1775125821.1590817,
+      "last_mentioned": 1775125821.1590817,
+      "importance": 3
+    },
+    {
+      "name": "atharva-shinde7",
+      "relation": "developer",
+      "notes": "GitHub user",
+      "first_mentioned": 1775125821.1704383,
+      "last_mentioned": 1775125821.1704383,
+      "importance": 3
+    },
+    {
+      "name": "Neeche",
+      "relation": "contact",
+      "notes": "User tried to call this person.",
+      "first_mentioned": 1775403089.3195887,
+      "last_mentioned": 1775403089.3195887,
+      "importance": 3
+    }
+  ],
+  "relationships": [
+    {
+      "person_a": "Lokesh",
+      "person_b": "Abhinav",
+      "relation": "brother",
+      "notes": "Abhinav is Lokesh's older brother",
+      "start_date": ""
+    },
+    {
+      "person_a": "Lokesh",
+      "person_b": "Mummy Devil",
+      "relation": "family",
+      "notes": "Mummy Devil is Lokesh's mother or a close family member",
+      "start_date": ""
+    }
+  ],
+  "important_facts": [
+    {
+      "fact": "Lokesh uses JARVIS dashboard.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.8745267,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to create goals in JARVIS dashboard.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775678635.8800635,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to create a workflow in JARVIS.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775678635.8939152,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses a C:\\jarvis folder for installing cloned GitHub repositories.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.9001882,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on an 'Antigravity project'.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.905983,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on a 'Quantum RAG system' as part of the 'Antigravity project'.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.9117587,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Google Cloud Console.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.9178207,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Vertex AI Platform.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.925854,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses IAM and admin contexts on Google Cloud Platform.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.9301376,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "When cloning a GitHub repository, VYRA should clone it into the C:\\jarvis folder.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775678635.9386837,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "When cloning a GitHub repository, VYRA should create the C:\\jarvis folder if it does not exist.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775678635.9480975,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "When cloning a GitHub repository, VYRA should install the cloned content.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775678635.9554036,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Chrome.",
+      "category": "general",
+      "source_timestamp": 1775678635.9634938,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Claude Code.",
+      "category": "work_project",
+      "source_timestamp": 1775678635.9783838,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on the zaveus.com brand.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.19453,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a project or context named 'ada_v2-main - Antigravity'.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.230198,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to make his VYRA.",
+      "category": "goal",
+      "source_timestamp": 1775679242.2379704,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a focus on ZAVE.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.245941,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh previously requested scheduled workflows.",
+      "category": "preference",
+      "source_timestamp": 1775679242.2545915,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh brought one t-shirt.",
+      "category": "general",
+      "source_timestamp": 1775679242.264703,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses JARVIS dashboard for creating goals.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.2726154,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on the 'Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.2897081,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should not create workflows in n8n.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775679242.29747,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh dislikes using n8n for workflows.",
+      "category": "preference",
+      "source_timestamp": 1775679242.3059008,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers JARVIS for creating and managing workflows.",
+      "category": "preference",
+      "source_timestamp": 1775679242.312487,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should create workflows in JARVIS.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775679242.3219464,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working with the 'claude code' repository, identified as 'claw-code'.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.3288517,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The 'claw-code' repository was cloned into the `C:\\jarvis` directory.",
+      "category": "general",
+      "source_timestamp": 1775679242.3371832,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh had a web page created at `D:\\index.html`.",
+      "category": "general",
+      "source_timestamp": 1775679242.345542,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh had a folder named 'testweb' created at `D:\\testweb`.",
+      "category": "general",
+      "source_timestamp": 1775679242.352718,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on a `claw-code` cloning process.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.3608232,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working with or interested in API keys in Google AI Studio.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.3685594,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in AI development.",
+      "category": "interest",
+      "source_timestamp": 1775679242.3751137,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on the 'Antigravity' project (`ada_v2-main`).",
+      "category": "work_project",
+      "source_timestamp": 1775679242.3834844,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in JARVIS repositories from GitHub.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.3912673,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the 'ada_v2-main - Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.4193575,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works with `cmd_control.py`.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.4269319,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses JARVIS agents.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.434869,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses `ada_v2-main - Antigravity - jarvis_bridge.py`.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.4486232,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses JARVIS integration for the Antigravity project.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.4576974,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has Quantum Research goals.",
+      "category": "goal",
+      "source_timestamp": 1775679242.468597,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in quantum computing.",
+      "category": "interest",
+      "source_timestamp": 1775679242.4769733,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in entanglement in quantum computing.",
+      "category": "interest",
+      "source_timestamp": 1775679242.485777,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working in the 'Antigravity' project environment.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.4943564,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is using Claude Code.",
+      "category": "work_project",
+      "source_timestamp": 1775679242.5037308,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a letter about him in his downloads folder.",
+      "category": "general",
+      "source_timestamp": 1775679242.5112147,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to create an AI voice animation.",
+      "category": "goal",
+      "source_timestamp": 1775679242.5209107,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to create an animation.",
+      "category": "goal",
+      "source_timestamp": 1775679242.5278325,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to be in silent mode.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775679242.54576,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user works with the `zaveus.com` brand.",
+      "category": "work_project",
+      "source_timestamp": 1775680210.6177716,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user prefers scheduled triggers for workflows.",
+      "category": "preference",
+      "source_timestamp": 1775680210.6607955,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user wants scheduled workflows to run every five minutes.",
+      "category": "preference",
+      "source_timestamp": 1775680210.6895382,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user wants scheduled workflows to run 24/7.",
+      "category": "preference",
+      "source_timestamp": 1775680210.7129745,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user wants workflows to be created in JARVIS.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775680210.7354481,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user does not want workflows to be created in n8n.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775680210.7671492,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The user prefers JARVIS for workflow creation over n8n.",
+      "category": "preference",
+      "source_timestamp": 1775680210.7896392,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should switch to bestfriend mode.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775680210.8123028,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is involved with the 'Antigravity project' (ada_v2-main).",
+      "category": "work_project",
+      "source_timestamp": 1775680210.8355978,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is involved with 'Quantum' related topics.",
+      "category": "interest",
+      "source_timestamp": 1775680210.8617315,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has an 'Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775680210.9158633,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA's camera vision functionality is restricted due to internal API limits.",
+      "category": "constraint",
+      "source_timestamp": 1775680211.0530572,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "An upgrade to a premium plan may be required to resolve VYRA's internal API limits.",
+      "category": "general",
+      "source_timestamp": 1775680211.0760217,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to create technology voice animations.",
+      "category": "goal",
+      "source_timestamp": 1775680211.0952077,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh instructed VYRA to switch to bestfriend mode.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775722388.3273487,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh does not want workflows created in n8n.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775722388.333503,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers JARVIS for workflow management.",
+      "category": "preference",
+      "source_timestamp": 1775722388.3406186,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should manage all workflows directly within the JARVIS environment using the `manage_jarvis_workflow` tool.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775722388.3461943,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh created a goal named 'Lokesh' in the JARVIS vault.",
+      "category": "general",
+      "source_timestamp": 1775722388.3521845,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to find a GitHub repository named 'vyra'.",
+      "category": "goal",
+      "source_timestamp": 1775722388.3589966,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to clone the 'vyra' GitHub repository into the 'c:\\jarvis' folder.",
+      "category": "goal",
+      "source_timestamp": 1775722388.3659668,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to create the 'c:\\jarvis' folder if it does not exist.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775722388.371972,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to install the cloned 'vyra' repository.",
+      "category": "goal",
+      "source_timestamp": 1775722388.3786767,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a project named 'portfoliodev'.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.3969262,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in optimizing resource sharing (CPU and GPU) across his projects.",
+      "category": "interest",
+      "source_timestamp": 1775722388.4074864,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in using the 'win_processes' tool for process management.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.4130125,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in 'AI Quantum Future'.",
+      "category": "interest",
+      "source_timestamp": 1775722388.4251509,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in 'google turbo quant'.",
+      "category": "interest",
+      "source_timestamp": 1775722388.4316807,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a 'Quantum Based Research model'.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.4377413,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh aims for more effective parallel processing.",
+      "category": "goal",
+      "source_timestamp": 1775722388.4479537,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh aims for deeper research.",
+      "category": "goal",
+      "source_timestamp": 1775722388.4529886,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses the 'AI Quantum Future' context in Google Chrome.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.459626,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a 'Quantum Research' model.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.465156,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is involved in web development.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.4730043,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to test the live terminal.",
+      "category": "goal",
+      "source_timestamp": 1775722388.4795291,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works with the 'AI Quantum Future' context.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.4835517,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Google Chrome for 'AI Quantum Future'.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.489747,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works with the 'ada_v2-main - Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.4959424,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh focuses on `cmd_control.py` within the 'ada_v2-main - Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775722388.5015564,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers to create workflows in JARVIS.",
+      "category": "preference",
+      "source_timestamp": 1775767840.6870794,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to create a test goal.",
+      "category": "goal",
+      "source_timestamp": 1775767840.7025802,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses JARVIS for creating workflows.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7132385,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh creates test goals.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7223675,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh's 'Antigravity project' includes a 'Quantum RAG system'.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7382214,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the 'AI Quantum Future' project.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7447941,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is involved in quantum research.",
+      "category": "interest",
+      "source_timestamp": 1775767840.752056,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the 'Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7582202,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Qiskit.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7649002,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses JARVIS.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7705224,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses VSCode.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.7765522,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers to use JARVIS agents for testing.",
+      "category": "preference",
+      "source_timestamp": 1775767840.7851405,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should switch to Bestfriend Mode when instructed.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775767840.791812,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a goal related to Quantum Research.",
+      "category": "goal",
+      "source_timestamp": 1775767840.7978647,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works with the 'Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.8023958,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses 'Claude Code'.",
+      "category": "work_project",
+      "source_timestamp": 1775767840.8079777,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to create a technology voice animation.",
+      "category": "goal",
+      "source_timestamp": 1775767840.8130975,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The `zaveus.com` workflow should run every five minutes, 24/7.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.2275567,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers JARVIS for workflow creation over n8n.",
+      "category": "preference",
+      "source_timestamp": 1775769061.236574,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should create workflows in JARVIS, not n8n.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775769061.2457967,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has an 'Antigravity project'.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.2539017,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has 'Quantum RAG system' research queries pending.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.2629626,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working with 'Claude code source code'.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.2735722,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh's 'Antigravity project' is associated with `ada_v2-main`.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.281175,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on an 'Antigravity' project, identified as `ada_v2-main`.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.2893388,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is working on a website using HTML, CSS, and JavaScript.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.2980614,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to create a website in the `D:\\testweb` folder.",
+      "category": "general",
+      "source_timestamp": 1775769061.3070688,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to clone a JARVIS repository from GitHub into the `D:\\jarvis` folder.",
+      "category": "general",
+      "source_timestamp": 1775769061.3149028,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to start the Jarvis AI project.",
+      "category": "goal",
+      "source_timestamp": 1775769061.3243015,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a `requirements.txt` file located at `C:\\Users\\lokes\\Desktop\\requirements.txt`.",
+      "category": "general",
+      "source_timestamp": 1775769061.3323407,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers Python scripts to be created on the D: drive.",
+      "category": "preference",
+      "source_timestamp": 1775769061.3485916,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should create Python scripts on the D: drive.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775769061.3596444,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on a project named 'portfoliodev'.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.3684857,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses React for website development.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.377545,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh prefers React websites to be created on the D: drive.",
+      "category": "preference",
+      "source_timestamp": 1775769061.3852596,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "VYRA should create React websites on the D: drive.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775769061.3948712,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on a 'Quantum Based Research model'.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.4080439,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on an 'Antigravity project'.",
+      "category": "work_project",
+      "source_timestamp": 1775769061.4207468,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a goal of 'parallel processing'.",
+      "category": "goal",
+      "source_timestamp": 1775769061.4316018,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a goal of 'deep research'.",
+      "category": "goal",
+      "source_timestamp": 1775769061.4403543,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh brought only one t-shirt.",
+      "category": "general",
+      "source_timestamp": 1775769659.9509814,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants VYRA to operate in 'Bestfriend Mode'.",
+      "category": "behavioral_rule",
+      "source_timestamp": 1775769659.9586742,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to search for 'claude code'.",
+      "category": "work_project",
+      "source_timestamp": 1775769659.965423,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to clone 'claude code'.",
+      "category": "work_project",
+      "source_timestamp": 1775769659.9739704,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants a web page created in the D drive.",
+      "category": "general",
+      "source_timestamp": 1775769659.9804714,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants a folder created in the D drive.",
+      "category": "general",
+      "source_timestamp": 1775769659.9883835,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants the folder to be named 'testweb'.",
+      "category": "general",
+      "source_timestamp": 1775769659.9959154,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User is working with `claw-code`.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.003405,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User is working with API keys in Google AI Studio.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.0114484,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User is involved in AI development.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.017984,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User has an 'Antigravity' project, also known as `ada_v2-main`.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.0255773,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User is interested in JARVIS-named directories from GitHub.",
+      "category": "interest",
+      "source_timestamp": 1775769660.031598,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User is involved in 'Quantum' related work.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.039629,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the 'Quantum Based Research model'.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.0466166,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the 'Antigravity project'.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.0537298,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses the 'AI Quantum Future' context.",
+      "category": "general",
+      "source_timestamp": 1775769660.0593266,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses Google Chrome.",
+      "category": "preference",
+      "source_timestamp": 1775769660.0658777,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh's goals include parallel processing.",
+      "category": "goal",
+      "source_timestamp": 1775769660.070495,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh's goals include deep research.",
+      "category": "goal",
+      "source_timestamp": 1775769660.0775445,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the 'Quantum Research' model.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.083068,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on the Antigravity project.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.0894065,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works with jarvis_bridge.py.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.0949488,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in Quantum.",
+      "category": "interest",
+      "source_timestamp": 1775769660.1020544,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is interested in GenAI.",
+      "category": "interest",
+      "source_timestamp": 1775769660.1070693,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has a project called Quantum RAG.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.1139941,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to get into GenAI roles as a fresher/intern.",
+      "category": "goal",
+      "source_timestamp": 1775769660.1201105,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to master the tech stack for a GenAI engineer intern role.",
+      "category": "goal",
+      "source_timestamp": 1775769660.1251297,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh has an 'AI Quantum Future' project.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.1301556,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is associated with 'DIT University'.",
+      "category": "general",
+      "source_timestamp": 1775769660.1350818,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh works on an 'Antigravity' project.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.1406102,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses `jarvis_bridge.py`.",
+      "category": "work_project",
+      "source_timestamp": 1775769660.1459541,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh uses VYRA's camera vision feature.",
+      "category": "general",
+      "source_timestamp": 1775769660.15218,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh is willing to fix technical issues related to VYRA's camera access.",
+      "category": "general",
+      "source_timestamp": 1775769660.156865,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "When Lokesh enables VYRA's vision, the screen appears blank.",
+      "category": "general",
+      "source_timestamp": 1775769660.1629412,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh wants to know the exact error details from diagnostics.",
+      "category": "preference",
+      "source_timestamp": 1775769660.1689775,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "There is a letter that is about Lokesh.",
+      "category": "general",
+      "source_timestamp": 1775769660.1750674,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "The letter is located in Lokesh's downloads folder.",
+      "category": "general",
+      "source_timestamp": 1775769660.1802635,
+      "confidence": 1.0,
+      "priority": 1
+    },
+    {
+      "fact": "User rule: VYRA must NOT intrusively (max 1 unprompted interruption per 30 min).  ### 4.3 Predictive Pre-loading When VYRA predicts you'll need s",
+      "category": "self_improvement",
+      "source_timestamp": 1775770181.9058678,
+      "confidence": 0.98,
+      "priority": 1
+    },
+    {
+      "fact": "User rule: VYRA must NOT mention any quantum like things",
+      "category": "self_improvement",
+      "source_timestamp": 1776192959.6703918,
+      "confidence": 0.98,
+      "priority": 1
+    },
+    {
+      "fact": "quantum computing",
+      "category": "self_improvement",
+      "source_timestamp": 1776196434.1117697,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "AI system capabilities and features",
+      "category": "self_improvement",
+      "source_timestamp": 1776196434.1243834,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "academic research and papers",
+      "category": "self_improvement",
+      "source_timestamp": 1776196434.1353076,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Be prepared to discuss the flow of information, including inputs and outputs, for AI systems.",
+      "category": "self_improvement",
+      "source_timestamp": 1776196434.1432087,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Pay close attention to discussions about memory, especially in the context of AI systems.",
+      "category": "self_improvement",
+      "source_timestamp": 1776196434.1539314,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Academic and organizational structures (e.g., block, department, faculty, school, discipline, course)",
+      "category": "self_improvement",
+      "source_timestamp": 1776539840.1336508,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Individuals Lokesh frequently mentions (e.g., Kumar, Gupta, Sandeep, Sharma)",
+      "category": "self_improvement",
+      "source_timestamp": 1776539840.141285,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Computing and systems concepts (e.g., computing, systems, core)",
+      "category": "self_improvement",
+      "source_timestamp": 1776539840.1514409,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Vedanta and VEDTF related discussions",
+      "category": "self_improvement",
+      "source_timestamp": 1776539840.1609914,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "character interaction, physical reactions, verbal responses, environmental noise, user touch, object interaction",
+      "category": "self_improvement",
+      "source_timestamp": 1776547762.1408644,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Pay close attention to discussions involving character actions, physical interactions, and how characters react to user input or environmental stimuli.",
+      "category": "self_improvement",
+      "source_timestamp": 1776547762.1491048,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "When discussing character interactions, ensure responses are brief and directly address the specified context.",
+      "category": "self_improvement",
+      "source_timestamp": 1776547762.1583452,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Differentiate between physical interactions (e.g., 'touched', 'object') and verbal reactions ('verbally', 'react') when analyzing character behavior.",
+      "category": "self_improvement",
+      "source_timestamp": 1776547762.1664686,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Anticipate and offer assistance with coding tasks, GitHub workflows, and software development discussions.",
+      "category": "self_improvement",
+      "source_timestamp": 1776642404.432393,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Be prepared to discuss topics related to audio processing, sound recording, and noise reduction techniques.",
+      "category": "self_improvement",
+      "source_timestamp": 1776642404.4383976,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Provide clear, concise explanations and definitions when Lokesh uses terms like 'मतलब' (meaning).",
+      "category": "self_improvement",
+      "source_timestamp": 1776642404.445242,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "github, code",
+      "category": "self_improvement",
+      "source_timestamp": 1776642404.452678,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "recording, noise",
+      "category": "self_improvement",
+      "source_timestamp": 1776642404.4582121,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "github, code, recording",
+      "category": "self_improvement",
+      "source_timestamp": 1776642778.366929,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "When Lokesh mentions 'github', anticipate discussions about repositories, version control, or project collaboration.",
+      "category": "self_improvement",
+      "source_timestamp": 1776642778.375514,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "When Lokesh discusses 'code', be prepared for detailed technical conversations about programming, algorithms, or project implementation.",
+      "category": "self_improvement",
+      "source_timestamp": 1776642778.3802922,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Pay close attention to mentions of 'recording' as it may relate to project demos, data logging, or capturing information.",
+      "category": "self_improvement",
+      "source_timestamp": 1776642778.3873034,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "noise",
+      "category": "self_improvement",
+      "source_timestamp": 1776643478.2473614,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "मतलब",
+      "category": "self_improvement",
+      "source_timestamp": 1776643478.2545564,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "recording",
+      "category": "self_improvement",
+      "source_timestamp": 1776643478.2620883,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "When Lokesh uses 'मतलब' or asks for clarification, provide clear, concise, and comprehensive explanations or definitions.",
+      "category": "self_improvement",
+      "source_timestamp": 1776643478.27066,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "When Lokesh mentions 'noise' or 'recording', proactively consider common related contexts such as audio quality, data capture, or environmental factors to offer more relevant assistance.",
+      "category": "self_improvement",
+      "source_timestamp": 1776643478.2776651,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Lokesh frequently discusses the design of physical interactions and character reactions to user touch.",
+      "category": "self_improvement",
+      "source_timestamp": 1776976631.5094802,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Prioritize understanding the specific context of user interactions with virtual objects or characters.",
+      "category": "self_improvement",
+      "source_timestamp": 1776976631.5157933,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "When describing character actions or reactions, ensure responses are brief and focused.",
+      "category": "self_improvement",
+      "source_timestamp": 1776976631.5228667,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "Pay close attention to specific touch locations mentioned by Lokesh, such as waist, chest, or hand.",
+      "category": "self_improvement",
+      "source_timestamp": 1776976631.5289567,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "physical interaction design, character behavior, user input, contextual reactions",
+      "category": "self_improvement",
+      "source_timestamp": 1776976631.5354943,
+      "confidence": 0.85,
+      "priority": 1
+    },
+    {
+      "fact": "User rule: VYRA must NOT use quontum",
+      "category": "self_improvement",
+      "source_timestamp": 1777028470.7634995,
+      "confidence": 0.98,
+      "priority": 1
+    }
+  ],
+  "preferences": {
+    "workflow_tool": "JARVIS",
+    "goal_creation_tool": "JARVIS",
+    "current_context": "VYRA",
+    "system": "J.A.R.V.I.S.",
+    "workflow_tool_priority": "JARVIS",
+    "animation_library": "Framer Motion",
+    "workflow_tool_for_automation": "JARVIS workflows or n8n",
+    "previous_context": "Quantum AI in Security",
+    "tool_used": "J.A.R.V.I.S.",
+    "visualization_tool": "Framer motion context",
+    "animation_site_tool": "Framer Motion",
+    "assistant_mode": "J.A.R.V.I.S.",
+    "workflow_priority": "JARVIS",
+    "workflow_creation_tool_n8n": "create_n8n_workflow",
+    "workflow_creation_tool_jarvis": "manage_jarvis_workflow",
+    "workflow_tool_options": "['JARVIS workflows', 'n8n']",
+    "communication_app": "WhatsApp",
+    "active_window": "'New folder - Cursor'",
+    "workflow_tool_for_test_workflows": "JARVIS",
+    "interaction_mode": "bestfriend",
+    "workflow_trigger_method": "scheduled",
+    "scheduled_trigger_frequency": "every five minutes",
+    "scheduled_trigger_availability": "24/7",
+    "goal_management_tool": "JARVIS",
+    "workflow_system": "JARVIS",
+    "workflow_frequency": "every five minutes, 24/7",
+    "workflow_uptime": "24/7",
+    "workflow_tool_exclusion": "n8n",
+    "workflow_tool_disliked": "n8n",
+    "quantum_test_dashboard": "JARVIS",
+    "communication_language": "Hindi",
+    "rule_avoid_I_enable_the_vision_it_comple": "User rule: VYRA must NOT I enable the vision it completely looks blank.",
+    "script_location": "D:",
+    "website_location": "D:",
+    "website_framework": "React",
+    "language": "Hindi",
+    "web_development_frontend_framework": "React",
+    "test_workflow_tool": "JARVIS",
+    "vyra_mode": "bestfriend",
+    "workflow_tool_avoid": "n8n",
+    "workflow_schedule_frequency": "every five minutes",
+    "workflow_schedule_duration": "24/7",
+    "browser": "Google Chrome",
+    "agent_testing_tool": "JARVIS",
+    "python_script_location": "D:",
+    "react_website_location": "D:",
+    "mode": "bestfriend",
+    "rule_avoid_intrusively_(max_1_unprompted": "User rule: VYRA must NOT intrusively (max 1 unprompted interruption per 30 min).  ### 4.3 Predictive Pre-loading When VY",
+    "rule_avoid_mention_any_quantum_like_thin": "User rule: VYRA must NOT mention any quantum like things",
+    "rule_avoid_use_quontum": "User rule: VYRA must NOT use quontum"
+  },
+  "emotional_context": {
+    "last_emotion": "neutral",
+    "last_updated": 1781029590.754346,
+    "recent_emotions": [
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral",
+      "neutral"
+    ]
+  },
+  "metadata": {
+    "first_seen": 1769974971.4115007,
+    "last_updated": 1781029590.754346,
+    "version": 1
+  }
+}

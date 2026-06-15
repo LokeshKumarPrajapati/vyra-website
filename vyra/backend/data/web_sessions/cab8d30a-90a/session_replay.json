@@ -1,0 +1,51 @@
+{
+  "success": false,
+  "summary": "Task was cancelled.",
+  "action_count": 2,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "cab8d30a-90a",
+    "session_start": "2026-03-15T03:16:31.329216",
+    "pages_visited": 0,
+    "action_count": 2,
+    "mode": "semi_auto",
+    "plan_steps": 1,
+    "current_step": 3,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "025c5ef8",
+      "timestamp": "2026-03-15T03:16:37.362088",
+      "action_type": "navigate",
+      "description": "https://www.youtube.com",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The task is to open YouTube, so the next action should be to navigate to the YouTube website.",
+      "confidence": 1.0,
+      "success": true,
+      "error": "",
+      "duration_ms": 0
+    },
+    {
+      "id": "38bac785",
+      "timestamp": "2026-03-15T03:16:42.484771",
+      "action_type": "click",
+      "description": "click",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "The YouTube website has now been opened, so the next step is to interact with the page to complete the task of opening YouTube.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open youtube"
+  ]
+}

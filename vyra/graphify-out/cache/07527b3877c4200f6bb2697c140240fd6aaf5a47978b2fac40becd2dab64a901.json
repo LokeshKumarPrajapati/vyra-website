@@ -1,0 +1,1 @@
+{"nodes": [{"id": "poll", "label": "poll.ts", "file_type": "code", "source_file": "jarvis\\src\\workflows\\nodes\\triggers\\poll.ts", "source_location": "L1"}], "edges": [{"source": "poll", "target": "registry_ts", "relation": "imports_from", "confidence": "EXTRACTED", "source_file": "jarvis\\src\\workflows\\nodes\\triggers\\poll.ts", "source_location": "L1", "weight": 1.0}]}

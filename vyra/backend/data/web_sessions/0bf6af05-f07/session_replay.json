@@ -1,0 +1,38 @@
+{
+  "success": false,
+  "summary": "Gemini API unavailable after retries. Check API key and quota.",
+  "action_count": 1,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "0bf6af05-f07",
+    "session_start": "2026-02-26T14:19:08.389058",
+    "pages_visited": 0,
+    "action_count": 1,
+    "mode": "autonomous",
+    "plan_steps": 1,
+    "current_step": 1,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "4aa896e6",
+      "timestamp": "2026-02-26T14:20:22.653900",
+      "action_type": "error",
+      "description": "Gemini API unavailable after retries. Check API key and quota.",
+      "url": "about:blank",
+      "risk": "high",
+      "thought": "All Gemini attempts failed \u2014 reporting error",
+      "confidence": 0.0,
+      "success": false,
+      "error": "Gemini API unavailable after retries. Check API key and quota.",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open linkdin"
+  ]
+}

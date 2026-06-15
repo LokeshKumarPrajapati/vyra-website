@@ -1,0 +1,138 @@
+{
+  "success": false,
+  "summary": "Task was cancelled.",
+  "action_count": 8,
+  "final_url": "https://www.youtube.com/",
+  "session_info": {
+    "session_id": "7d9998ea-a60",
+    "session_start": "2026-03-15T03:51:03.675870",
+    "pages_visited": 8,
+    "action_count": 8,
+    "mode": "autonomous",
+    "plan_steps": 1,
+    "current_step": 9,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": [
+      "https://www.youtube.com/",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/"
+    ]
+  },
+  "actions": [
+    {
+      "id": "6e54e467",
+      "timestamp": "2026-03-15T03:51:10.088000",
+      "action_type": "navigate",
+      "description": "https://www.youtube.com",
+      "url": "about:blank",
+      "risk": "low",
+      "thought": "To open YouTube and play the video 'janam me hu yha', I first need to navigate to the YouTube homepage, then search for and play the video.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 5243
+    },
+    {
+      "id": "94409c75",
+      "timestamp": "2026-03-15T03:51:20.166689",
+      "action_type": "type",
+      "description": "janam me hu yha",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "To play the video 'janam me hu yha', I need to search for it on YouTube and then click on the video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 652
+    },
+    {
+      "id": "54e259a5",
+      "timestamp": "2026-03-15T03:51:26.536947",
+      "action_type": "click",
+      "description": "click",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "Now that I have searched for the video 'janam me hu yha', I need to click on the video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 622
+    },
+    {
+      "id": "1999a5c1",
+      "timestamp": "2026-03-15T03:51:34.118296",
+      "action_type": "click",
+      "description": "click",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "The search results for 'janam me hu yha' have been displayed, so the next step is to click on the relevant video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 790
+    },
+    {
+      "id": "a091f5f1",
+      "timestamp": "2026-03-15T03:51:44.685428",
+      "action_type": "click",
+      "description": "click",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "The search results for 'janam me hu yha' have been displayed, and I can now click on the relevant video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 707
+    },
+    {
+      "id": "b37576a0",
+      "timestamp": "2026-03-15T03:51:55.363216",
+      "action_type": "click",
+      "description": "click",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "The search results for 'janam me hu yha' have been displayed, and I can now click on the relevant video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 541
+    },
+    {
+      "id": "7d496a76",
+      "timestamp": "2026-03-15T03:52:02.591715",
+      "action_type": "click",
+      "description": "click",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "The search results for 'janam me hu yha' have been displayed, and I can now click on the relevant video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 696
+    },
+    {
+      "id": "dabd0e2f",
+      "timestamp": "2026-03-15T03:52:09.527338",
+      "action_type": "click",
+      "description": "click",
+      "url": "https://www.youtube.com/",
+      "risk": "low",
+      "thought": "The search results for 'janam me hu yha' have been displayed, and I can now click on the relevant video to start playing it.",
+      "confidence": 0.9,
+      "success": true,
+      "error": "",
+      "duration_ms": 726
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open youtube and play janam me hu yha"
+  ]
+}

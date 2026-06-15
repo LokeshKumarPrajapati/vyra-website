@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/uas/login?fromsignin=true&session_redirect=/top-content?trk%3dpublic_profile_guest_nav_menu_topcontent&trk=keyword-landing-homepage_nav-header-signin",
+  "url": "https://www.linkedin.com/uas/login?session_redirect=%2Ftop-content%3Ftrk%3Dpublic_profile_guest_nav_menu_topContent&fromSignIn=true&trk=keyword-landing-homepage_nav-header-signin",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 2
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

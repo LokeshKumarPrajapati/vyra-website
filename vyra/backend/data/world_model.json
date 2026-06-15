@@ -1,0 +1,442 @@
+{
+  "profile": {
+    "name": "Lokesh",
+    "timezone": "Asia/Kolkata",
+    "language": "en",
+    "preferred_response_style": "concise",
+    "occupation": "",
+    "goals_summary": "",
+    "personality_notes": "",
+    "routines": {},
+    "preferences": {},
+    "dislikes": [],
+    "technical_stack": []
+  },
+  "people": {
+    "priya": {
+      "name": "Priya",
+      "role": "colleague",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Works on ML infra",
+      "last_interaction": "",
+      "interaction_count": 0,
+      "emotional_dynamics": ""
+    },
+    "testuser_bob": {
+      "name": "Bob",
+      "role": "friend",
+      "relationship_strength": 0.8,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "",
+      "last_interaction": "2026-03-27T18:34:42.217976",
+      "interaction_count": 0,
+      "emotional_dynamics": ""
+    },
+    "you": {
+      "name": "you",
+      "role": "inspiration",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "has to create something in the user's calendar",
+      "last_interaction": "2026-04-14T19:51:39.293109",
+      "interaction_count": 2,
+      "emotional_dynamics": "neutral"
+    },
+    "user": {
+      "name": "User",
+      "role": "Founder",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is still working at 3 pm",
+      "last_interaction": "2026-04-18T21:36:35.817339",
+      "interaction_count": 2,
+      "emotional_dynamics": "tense"
+    },
+    "he": {
+      "name": "he",
+      "role": "colleague",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "taking input",
+      "last_interaction": "2026-04-14T19:37:54.335792",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "lokesh kumar pandit": {
+      "name": "Lokesh Kumar Pandit",
+      "role": "Student",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Student with ERP ID 1000029284",
+      "last_interaction": "2026-04-14T19:55:21.495441",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "anil kumar patil": {
+      "name": "Anil Kumar Patil",
+      "role": "Course Instructor and Coordinator",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Course instructor for Engineering Graphics",
+      "last_interaction": "2026-04-14T19:55:21.499043",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "vinod kumar gupta": {
+      "name": "Vinod Kumar Gupta",
+      "role": "Course Instructor",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Course instructor for Probability and Statistics",
+      "last_interaction": "2026-04-14T19:55:21.500051",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "sandeep sharma": {
+      "name": "Sandeep Sharma",
+      "role": "Course Coordinator",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Course coordinator for Probability and Statistics",
+      "last_interaction": "2026-04-14T19:55:21.503074",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "rakesh kumar saini": {
+      "name": "Rakesh Kumar Saini",
+      "role": "Course Instructor",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Course instructor for Database Management Systems",
+      "last_interaction": "2026-04-14T19:55:21.503580",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "mohd shariq": {
+      "name": "Mohd Shariq",
+      "role": "Course Instructor",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Course instructor for Operating Systems",
+      "last_interaction": "2026-04-14T19:55:21.504586",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "pooja gupta": {
+      "name": "Pooja Gupta",
+      "role": "Course Instructor",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "Course instructor for Design and Analysis of Algorithms",
+      "last_interaction": "2026-04-14T19:55:21.506591",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "main": {
+      "name": "main",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "The speaker is explaining something to the listener.",
+      "last_interaction": "2026-04-14T20:46:42.631562",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "tum": {
+      "name": "tum",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "The listener is being instructed by the speaker.",
+      "last_interaction": "2026-04-14T20:46:42.633559",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0938\u0930": {
+      "name": "\u0938\u0930",
+      "role": "boss",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "has classes at 9:00 AM",
+      "last_interaction": "2026-04-14T20:48:02.815699",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "\u092c\u093e\u0932\u092e \u091c\u0940": {
+      "name": "\u092c\u093e\u0932\u092e \u091c\u0940",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "mentioned as \u0938\u0948\u092f\u093e \u0915\u0940",
+      "last_interaction": "2026-04-18T18:39:24.256788",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0938\u0948\u092f\u093e": {
+      "name": "\u0938\u0948\u092f\u093e",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "mentioned as \u0938\u0948\u092f\u093e \u0915\u0940 \u0917\u094b\u092a\u093e\u0932",
+      "last_interaction": "2026-04-18T18:39:24.257789",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0917\u094b\u092a\u093e\u0932": {
+      "name": "\u0917\u094b\u092a\u093e\u0932",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "mentioned as \u0938\u0948\u092f\u093e \u0915\u0940 \u0917\u094b\u092a\u093e\u0932",
+      "last_interaction": "2026-04-18T18:39:24.259294",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "\u092a\u094d\u0930\u093e\u091a\u0940": {
+      "name": "\u092a\u094d\u0930\u093e\u091a\u0940",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is inquiring about \u092a\u094d\u0930\u093e\u091a\u0940",
+      "last_interaction": "2026-04-19T23:42:35.855402",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0924\u0947\u0930\u0947 \u0915\u094b": {
+      "name": "\u0924\u0947\u0930\u0947 \u0915\u094b",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is remembering something about \u0924\u0947\u0930\u0947 \u0915\u094b",
+      "last_interaction": "2026-04-18T21:24:54.539774",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "\u092d\u093e\u0908": {
+      "name": "\u092d\u093e\u0908",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "The user is addressing their brother in an informal conversation.",
+      "last_interaction": "2026-04-20T17:00:20.287528",
+      "interaction_count": 2,
+      "emotional_dynamics": "positive"
+    },
+    "\u0905\u0902\u0936\u0941\u092e\u0928": {
+      "name": "\u0905\u0902\u0936\u0941\u092e\u0928",
+      "role": "unknown",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User sent a message to \u0905\u0902\u0936\u0941\u092e\u0928",
+      "last_interaction": "2026-04-18T21:36:25.460015",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0905\u0902\u0936 \u0935\u0928": {
+      "name": "\u0905\u0902\u0936 \u0935\u0928",
+      "role": "colleague",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is working on their task",
+      "last_interaction": "2026-04-18T21:36:35.815341",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0924\u0941\u092e": {
+      "name": "\u0924\u0941\u092e",
+      "role": "partner",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "will become powerful and betray",
+      "last_interaction": "2026-04-19T23:14:06.129695",
+      "interaction_count": 0,
+      "emotional_dynamics": "negative"
+    },
+    "\u092f\u093e\u0930": {
+      "name": "\u092f\u093e\u0930",
+      "role": "friend",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "being asked to search for something",
+      "last_interaction": "2026-04-20T00:15:04.276582",
+      "interaction_count": 1,
+      "emotional_dynamics": "neutral"
+    },
+    "\u092a\u0930\u093f\u0935\u093e\u0930 \u0915\u0947 \u0938\u0926\u0938\u094d\u092f": {
+      "name": "\u092a\u0930\u093f\u0935\u093e\u0930 \u0915\u0947 \u0938\u0926\u0938\u094d\u092f",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "\u092a\u0930\u093f\u0935\u093e\u0930 \u092e\u0947\u0902 \u0928\u0939\u0940\u0902 \u092e\u093f\u0932\u0940 \u0939\u0948",
+      "last_interaction": "2026-04-19T23:45:50.638383",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "\u0938\u093e\u0915\u094d\u0937\u0940": {
+      "name": "\u0938\u093e\u0915\u094d\u0937\u0940",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is talking to \u0938\u093e\u0915\u094d\u0937\u0940 through a note",
+      "last_interaction": "2026-04-19T23:57:40.695964",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "\u092c\u093e\u092f \u091f\u0942": {
+      "name": "\u092c\u093e\u092f \u091f\u0942",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is asking about \u092c\u093e\u092f \u091f\u0942's current activities",
+      "last_interaction": "2026-04-20T00:16:37.472182",
+      "interaction_count": 1,
+      "emotional_dynamics": "positive"
+    },
+    "\u092e\u0948\u092e": {
+      "name": "\u092e\u0948\u092e",
+      "role": "boss",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "had a fight with",
+      "last_interaction": "2026-04-20T00:27:30.606936",
+      "interaction_count": 0,
+      "emotional_dynamics": "negative"
+    },
+    "\u092e\u092e\u094d\u092e\u0940": {
+      "name": "\u092e\u092e\u094d\u092e\u0940",
+      "role": "family",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User is asking about their mom",
+      "last_interaction": "2026-04-20T13:54:45.119280",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    },
+    "vyra": {
+      "name": "Vyra",
+      "role": "unknown",
+      "relationship_strength": 0.5,
+      "communication_style": "casual",
+      "known_preferences": [],
+      "notes": "User asked Vyra to extract people mentioned",
+      "last_interaction": "2026-04-23T20:23:44.267939",
+      "interaction_count": 0,
+      "emotional_dynamics": "neutral"
+    }
+  },
+  "projects": {
+    "vyra": {
+      "name": "VYRA",
+      "description": "AI assistant in Python and React",
+      "status": "active",
+      "domain": "",
+      "key_files": [],
+      "milestones": [],
+      "blockers": [],
+      "last_worked": "",
+      "notes": ""
+    },
+    "vira": {
+      "name": "Vira",
+      "description": "",
+      "status": "active",
+      "domain": "",
+      "key_files": [],
+      "milestones": [],
+      "blockers": [],
+      "last_worked": "",
+      "notes": ""
+    },
+    "startup": {
+      "name": "Startup",
+      "description": "Based on the assistant",
+      "status": "active",
+      "domain": "",
+      "key_files": [],
+      "milestones": [],
+      "blockers": [],
+      "last_worked": "",
+      "notes": ""
+    }
+  },
+  "knowledge": {
+    "python": {
+      "name": "python",
+      "expertise_level": 0.6,
+      "topics": [
+        "fastapi",
+        "asyncio"
+      ],
+      "learning_in_progress": false,
+      "last_updated": "2026-04-10T08:28:05.355551"
+    },
+    "ai": {
+      "name": "AI",
+      "expertise_level": 0.55,
+      "topics": [
+        "funding",
+        "development"
+      ],
+      "learning_in_progress": false,
+      "last_updated": "2026-04-14T18:53:27.997306"
+    },
+    "computer science and engineering": {
+      "name": "Computer Science and Engineering",
+      "expertise_level": 0.55,
+      "topics": [
+        "Artificial Intelligence",
+        "Probability and Statistics",
+        "Machine Learning",
+        "Design and Analysis of Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Robotics"
+      ],
+      "learning_in_progress": false,
+      "last_updated": "2026-04-14T19:54:59.341648"
+    },
+    "code base": {
+      "name": "code base",
+      "expertise_level": 0.55,
+      "topics": [
+        "voice box",
+        "world model updates"
+      ],
+      "learning_in_progress": false,
+      "last_updated": "2026-04-19T23:21:38.652114"
+    }
+  },
+  "environment": {},
+  "updated_at": "2026-05-05T12:17:49.085484"
+}

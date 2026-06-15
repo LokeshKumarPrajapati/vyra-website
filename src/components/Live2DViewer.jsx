@@ -14,84 +14,92 @@ PIXI.settings.FILTER_RESOLUTION   = Math.min(window.devicePixelRatio * 2, 4)
 const MODEL_URL  = '/vyra2d/v2_14emu_school_t02.model3.json'
 const RESOLUTION = Math.min(Math.max((window.devicePixelRatio || 1) * 3, 4), 6)
 
-// ── Matched pose + expression pairs (with mouth-open where natural) ────────────
+// ── Random idle poses ─────────────────────────────────────────────────────────
 const POSE_SETS = [
-  // cute / playful — subtle smile
-  { pose: 'w-cute11-pose',       face: 'face_ncsmile_18'    },  // natural open smile ✓
+  { pose: 'w-cute11-pose',       face: 'face_ncsmile_18'    },
   { pose: 'w-cute11-poseB',      face: 'face_smile_12'      },
-  { pose: 'w-cute01-pose',       face: 'face_sparkling_02'  },  // sparkling + mouth open ✓
+  { pose: 'w-cute01-pose',       face: 'face_sparkling_02'  },
   { pose: 'w-cute02-pose',       face: 'face_ncsmile_09'    },
   { pose: 'w-cute14-pose',       face: 'face_smile_09'      },
-  // peace sign ✌ — always wink
   { pose: 'w-cute11-piece',      face: 'face_wink_01'       },
-  { pose: 'w-happy11-piece',     face: 'face_e_01'          },  // peace + mouth open "eee!" ✓
-  // head tilt — curious
-  { pose: 'w-cute01-tilthead',   face: 'face_wonder_train_01' }, // wonder + mouth open ✓
-  { pose: 'w-cute11-tilthead',   face: 'face_ncsmile_18'    },  // natural open smile ✓
+  { pose: 'w-happy11-piece',     face: 'face_e_01'          },
+  { pose: 'w-cute01-tilthead',   face: 'face_wonder_train_01' },
+  { pose: 'w-cute11-tilthead',   face: 'face_ncsmile_18'    },
   { pose: 'w-adult01-tilthead',  face: 'face_ncsmile_07'    },
   { pose: 'w-cute14-tilthead',   face: 'face_smile_03'      },
-  // shy / blushing — closed mouth, bashful
   { pose: 'w-cute11-shy02',      face: 'face_shy_01'        },
   { pose: 'w-cute01-shy',        face: 'w-adult01-blushed'  },
   { pose: 'w-normal15-shy',      face: 'face_smile_15'      },
   { pose: 'w-cute12-pose',       face: 'face_shy_01'        },
-  // happy / energetic — big open smile
-  { pose: 'w-happy11-pose',      face: 'face_sparkling_02'  },  // sparkling + mouth open ✓
+  { pose: 'w-happy11-pose',      face: 'face_sparkling_02'  },
   { pose: 'w-happy14-pose',      face: 'face_smile_07'      },
-  { pose: 'w-happy02-pose',      face: 'face_ncsmile_18'    },  // natural open smile ✓
-  { pose: 'w-cute11-glad',       face: 'face_delicious_01'  },  // happy + mouth open ✓
-  // forward lean — engaging
-  { pose: 'w-cute11-forward',    face: 'face_e_01'          },  // lean + "eee!" mouth open ✓
-  { pose: 'w-cute01-forward03',  face: 'face_wonder_train_01' }, // wonder + mouth open ✓
-  // delightful / excited — mouth open reactions
-  { pose: 'w-cute11-bright',     face: 'face_sparkling_02'  },  // mouth open + sparkle ✓
-  { pose: 'w-cute11-delicious',  face: 'face_delicious_01'  },  // eating face ✓
-  { pose: 'w-cute11-guts',       face: 'face_e_01'          },  // guts + excited ✓
-  // cool / confident
+  { pose: 'w-happy02-pose',      face: 'face_ncsmile_18'    },
+  { pose: 'w-cute11-glad',       face: 'face_delicious_01'  },
+  { pose: 'w-cute11-forward',    face: 'face_e_01'          },
+  { pose: 'w-cute01-forward03',  face: 'face_wonder_train_01' },
+  { pose: 'w-cute11-bright',     face: 'face_sparkling_02'  },
+  { pose: 'w-cute11-delicious',  face: 'face_delicious_01'  },
+  { pose: 'w-cute11-guts',       face: 'face_e_01'          },
   { pose: 'w-cool02-pose',       face: 'face_ncsmile_01'    },
   { pose: 'w-cool10-pose',       face: 'face_smile_02'      },
   { pose: 'w-cool13-pose',       face: 'face_ncsmile_03'    },
-  // elegant
   { pose: 'w-adult01-pose',      face: 'face_ncsmile_07'    },
   { pose: 'w-adult02-pose',      face: 'face_smile_01'      },
   { pose: 'w-pure12-pose',       face: 'face_ncsmile_09'    },
-  // sleepy / cute yawn
-  { pose: 'w-cute01-sleep05',    face: 'face_sleepy_01'     },  // sleepy + mouth open ✓
+  { pose: 'w-cute01-sleep05',    face: 'face_sleepy_01'     },
 ]
 
-// ── Touch reaction zones ───────────────────────────────────────────────────────
+// ── Emotion → motion (matches vyra's [EMOTION:xxx] tag system) ───────────────
+const EMOTION_MAP = {
+  happy:     { pose: 'w-happy02-pose',       face: 'face_ncsmile_18'      },
+  sad:       { pose: 'w-normal15-shy',        face: 'face_cry_01'          },
+  angry:     { pose: 'w-cool02-pose',         face: 'face_angry_01'        },
+  surprised: { pose: 'w-cute01-tilthead',     face: 'face_ncsurprise_03'   },
+  thinking:  { pose: 'w-cute01-tilthead',     face: 'face_wonder_train_01' },
+  playful:   { pose: 'w-cute11-piece',        face: 'face_e_01'            },
+  loving:    { pose: 'w-cute11-forward',      face: 'face_ncsmile_18'      },
+  love:      { pose: 'w-cute11-forward',      face: 'face_ncsmile_18'      },
+  shy:       { pose: 'w-cute11-shy02',        face: 'face_shy_01'          },
+  disgusted: { pose: 'w-cool10-pose',         face: 'face_disgust_01'      },
+  sleepy:    { pose: 'w-cute01-sleep05',      face: 'face_sleepy_01'       },
+  neutral:   { pose: 'w-cool10-pose',         face: 'face_ncnormal_01'     },
+  serious:   { pose: 'w-adult01-pose',        face: 'face_ncnormal_01'     },
+  cry:       { pose: 'w-normal15-shy',        face: 'face_cry_01'          },
+  scared:    { pose: 'w-cute01-shakehead04',  face: 'face_ncsurprise_03'   },
+  protective:{ pose: 'w-cool02-pose',         face: 'face_angry_01'        },
+  jealous:   { pose: 'w-cute11-shy02',        face: 'face_disgust_01'      },
+  caring:    { pose: 'w-happy02-pose',        face: 'face_ncsmile_09'      },
+}
+
+// ── Touch reaction zones ──────────────────────────────────────────────────────
 const TOUCH_REACTIONS = {
   head: [
-    // Surprised — hair touched
     { pose: 'w-cute01-shakehead04', face: 'face_ncsurprise_03'   },
-    { pose: 'w-cute11-tilthead',    face: 'face_wonder_train_01' }, // ✓ mouth open
-    { pose: 'w-cute14-shakehead',   face: 'face_e_01'            }, // ✓ mouth open
-    { pose: 'w-cute12-nod',         face: 'face_ncsmile_18'      }, // ✓ mouth open
+    { pose: 'w-cute11-tilthead',    face: 'face_wonder_train_01' },
+    { pose: 'w-cute14-shakehead',   face: 'face_e_01'            },
+    { pose: 'w-cute12-nod',         face: 'face_ncsmile_18'      },
     { pose: 'w-adult01-tilthead',   face: 'face_ncsurprise_04'   },
   ],
   face: [
-    // Shy / blushing — face touched (cheek poke)
-    { pose: 'w-special11-cheek',    face: 'face_spicy_01'        }, // ✓ mouth open
-    { pose: 'w-special11-cheekB',   face: 'face_e_01'            }, // ✓ mouth open
+    { pose: 'w-special11-cheek',    face: 'face_spicy_01'        },
+    { pose: 'w-special11-cheekB',   face: 'face_e_01'            },
     { pose: 'w-cute11-shy02',       face: 'face_shy_01'          },
-    { pose: 'w-cute01-shy',         face: 'face_ncsmile_18'      }, // ✓ mouth open
+    { pose: 'w-cute01-shy',         face: 'face_ncsmile_18'      },
     { pose: 'w-cute11-nbshy02',     face: 'w-adult01-blushed'    },
   ],
   body: [
-    // Happy / bright — body touched
-    { pose: 'w-cute11-bright',      face: 'face_sparkling_02'    }, // ✓ mouth open
-    { pose: 'w-cute11-glad',        face: 'face_delicious_01'    }, // ✓ mouth open
-    { pose: 'w-cute11-forward',     face: 'face_e_01'            }, // ✓ mouth open
-    { pose: 'w-cute11-fidget02',    face: 'face_wonder_train_01' }, // ✓ mouth open
-    { pose: 'w-cute11-guts',        face: 'face_ncsmile_18'      }, // ✓ mouth open
+    { pose: 'w-cute11-bright',      face: 'face_sparkling_02'    },
+    { pose: 'w-cute11-glad',        face: 'face_delicious_01'    },
+    { pose: 'w-cute11-forward',     face: 'face_e_01'            },
+    { pose: 'w-cute11-fidget02',    face: 'face_wonder_train_01' },
+    { pose: 'w-cute11-guts',        face: 'face_ncsmile_18'      },
   ],
   lower: [
-    // Playful — lower body / hands touched
     { pose: 'w-cute11-piece',       face: 'face_wink_01'         },
-    { pose: 'w-happy11-shakehand',  face: 'face_sparkling_02'    }, // ✓ mouth open
-    { pose: 'w-cute02-guts',        face: 'face_e_01'            }, // ✓ mouth open
-    { pose: 'w-special11-wandahoi', face: 'face_spicy_01'        }, // ✓ mouth open
-    { pose: 'w-cute14-pose',        face: 'face_delicious_01'    }, // ✓ mouth open
+    { pose: 'w-happy11-shakehand',  face: 'face_sparkling_02'    },
+    { pose: 'w-cute02-guts',        face: 'face_e_01'            },
+    { pose: 'w-special11-wandahoi', face: 'face_spicy_01'        },
+    { pose: 'w-cute14-pose',        face: 'face_delicious_01'    },
   ],
 }
 
@@ -100,7 +108,8 @@ function pickRandom(arr, excludePose) {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
-export default function Live2DViewer() {
+// controlRef: plain ref passed as prop — avoids forwardRef / React Fast Refresh conflict
+export default function Live2DViewer({ controlRef }) {
   const mountRef = useRef(null)
 
   useEffect(() => {
@@ -111,8 +120,9 @@ export default function Live2DViewer() {
     let pointerMoveHandler = null, pointerDownHandler = null
     let cycleTimer = null, lastPose = null
     let isReacting = false
+    let externalPaused = false
 
-    // ── Play a matched pose + expression set ──────────────────────────────────
+    // ── Play a matched pose + expression set ─────────────────────────────────
     function playSet(model, set) {
       lastPose = set.pose
       try { model.motion(set.pose) } catch (_) {}
@@ -122,22 +132,17 @@ export default function Live2DViewer() {
       }, 280)
     }
 
-    // ── Auto-cycle random pose every 6.5–9.5 s ────────────────────────────────
+    // ── Auto-cycle random pose every 6.5–9.5 s ───────────────────────────────
     function autoCycle(model) {
-      if (!alive || isReacting) return
+      if (!alive || isReacting || externalPaused) return
       const set = pickRandom(POSE_SETS, lastPose)
       playSet(model, set)
       cycleTimer = setTimeout(() => autoCycle(model), 6500 + Math.random() * 3000)
     }
 
-    // ── Natural mouth: driven entirely by motion keyframes, no override ──────
-    // face_e_01, face_spicy_01, face_sparkling_02, face_delicious_01, etc.
-    // all include ParamMouthOpenY keyframes — they open/close naturally.
-    // We do NOT add a constant offset so closed-mouth expressions stay closed.
-
     // ── Zone-based touch reaction ─────────────────────────────────────────────
     function handleTouch(model, canvas, e) {
-      if (!alive) return
+      if (!alive || externalPaused) return
       isReacting = true
       if (cycleTimer) clearTimeout(cycleTimer)
 
@@ -151,16 +156,10 @@ export default function Live2DViewer() {
       else if (modelY < 0.65) zone = 'body'
       else                    zone = 'lower'
 
-      const reaction = TOUCH_REACTIONS[zone][
-        Math.floor(Math.random() * TOUCH_REACTIONS[zone].length)
-      ]
+      const reaction = TOUCH_REACTIONS[zone][Math.floor(Math.random() * TOUCH_REACTIONS[zone].length)]
       playSet(model, reaction)
 
-      // Resume auto-cycle after 4 s
-      cycleTimer = setTimeout(() => {
-        isReacting = false
-        autoCycle(model)
-      }, 4000)
+      cycleTimer = setTimeout(() => { isReacting = false; autoCycle(model) }, 4000)
     }
 
     const init = () => {
@@ -179,28 +178,52 @@ export default function Live2DViewer() {
           resolution: RESOLUTION, powerPreference: 'high-performance',
           clearBeforeRender: true,
         })
-      } catch (err) { canvas.remove(); return }
-
-      app.stage.eventMode = 'static'
-      app.stage.hitArea   = app.screen
+      } catch { canvas.remove(); return }
 
       Live2DModel.from(MODEL_URL, { autoInteract: false })
         .then((model) => {
           if (!alive) { model.destroy(); return }
+          // Disable PIXI event traversal — pixi-live2d-display uses old interactive API
+          // which causes isInteractive() crash in PIXI v7.4+. We handle events on canvas directly.
+          model.eventMode = 'none'
           app.stage.addChild(model)
           fitModel(model, W, H)
 
-          // Start random pose+expression cycle
+          // ── Expose voice-chat control API via plain prop ref ──────────────
+          if (controlRef) {
+            controlRef.current = {
+              triggerEmotion(name) {
+                if (!alive) return
+                const set = EMOTION_MAP[name] ?? EMOTION_MAP.neutral
+                playSet(model, set)
+              },
+              setMouthOpen(value) {
+                if (!alive) return
+                try {
+                  model.internalModel.coreModel.setParameterValueById(
+                    'ParamMouthOpenY', Math.max(0, Math.min(1, value)), 1
+                  )
+                } catch (_) {}
+              },
+              pauseAutoReact() {
+                externalPaused = true
+                if (cycleTimer) { clearTimeout(cycleTimer); cycleTimer = null }
+              },
+              resumeAutoReact() {
+                externalPaused = false
+                setTimeout(() => autoCycle(model), 1500)
+              },
+            }
+          }
+
           autoCycle(model)
 
-          // Eyes follow cursor
           pointerMoveHandler = (e) => {
             const rect = canvas.getBoundingClientRect()
             model.focus(e.clientX - rect.left, e.clientY - rect.top)
           }
           window.addEventListener('pointermove', pointerMoveHandler)
 
-          // Touch → zone reaction
           pointerDownHandler = (e) => handleTouch(model, canvas, e)
           canvas.addEventListener('pointerdown', pointerDownHandler)
 
@@ -221,10 +244,11 @@ export default function Live2DViewer() {
 
     return () => {
       alive = false
-      if (rafId)        cancelAnimationFrame(rafId)
-      if (cycleTimer)   clearTimeout(cycleTimer)
+      if (controlRef) controlRef.current = null
+      if (rafId)              cancelAnimationFrame(rafId)
+      if (cycleTimer)         clearTimeout(cycleTimer)
       if (pointerMoveHandler) window.removeEventListener('pointermove', pointerMoveHandler)
-      if (mount._ro) { mount._ro.disconnect(); delete mount._ro }
+      if (mount._ro)          { mount._ro.disconnect(); delete mount._ro }
       if (app) {
         try { app.destroy(true, { children: true, texture: true }) } catch (_) {}
         app = null

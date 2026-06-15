@@ -1,0 +1,330 @@
+{
+  "python": {
+    "domain": "python",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "javascript": {
+    "domain": "javascript",
+    "stated_confidence": [
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "actual_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "calibration_error": -0.25,
+    "n_observations": 20,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-06-01T16:50:42.506625"
+  },
+  "machine_learning": {
+    "domain": "machine_learning",
+    "stated_confidence": [
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "actual_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "calibration_error": -0.25,
+    "n_observations": 7,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-06-04T16:04:06.073254"
+  },
+  "mathematics": {
+    "domain": "mathematics",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "finance": {
+    "domain": "finance",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "biology": {
+    "domain": "biology",
+    "stated_confidence": [
+      0.75,
+      0.75
+    ],
+    "actual_accuracy": [
+      1.0,
+      1.0
+    ],
+    "calibration_error": 0.0,
+    "n_observations": 2,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-06-02T17:58:03.664206"
+  },
+  "physics": {
+    "domain": "physics",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "history": {
+    "domain": "history",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "law": {
+    "domain": "law",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "medicine": {
+    "domain": "medicine",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "psychology": {
+    "domain": "psychology",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "cooking": {
+    "domain": "cooking",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "music": {
+    "domain": "music",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "art": {
+    "domain": "art",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "hardware": {
+    "domain": "hardware",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "networking": {
+    "domain": "networking",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "databases": {
+    "domain": "databases",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "security": {
+    "domain": "security",
+    "stated_confidence": [
+      0.75
+    ],
+    "actual_accuracy": [
+      1.0
+    ],
+    "calibration_error": 0.0,
+    "n_observations": 1,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-20T12:49:16.725242"
+  },
+  "project_management": {
+    "domain": "project_management",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "business": {
+    "domain": "business",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "design": {
+    "domain": "design",
+    "stated_confidence": [],
+    "actual_accuracy": [],
+    "calibration_error": 0.0,
+    "n_observations": 0,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-04-19T23:09:43.696989"
+  },
+  "general": {
+    "domain": "general",
+    "stated_confidence": [
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "actual_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "calibration_error": -0.25,
+    "n_observations": 218,
+    "knowledge_boundary": 0.7,
+    "last_updated": "2026-06-08T13:49:16.483135"
+  }
+}

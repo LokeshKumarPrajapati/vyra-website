@@ -1,0 +1,14 @@
+{
+    "source_directories": [
+        {
+            "import_root": "backend"
+        }
+    ],
+    "search_path": [
+        "C:\\Users\\lokes\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages",
+        "C:\\Users\\lokes\\AppData\\Local\\Programs\\Python\\Python311\\Lib",
+        "C:\\Users\\lokes\\AppData\\Local\\Programs\\Python\\Python311"
+    ],
+    "python_version": "3.11",
+    "strict": false
+}

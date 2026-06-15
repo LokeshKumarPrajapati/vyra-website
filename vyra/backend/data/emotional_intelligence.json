@@ -1,0 +1,361 @@
+{
+  "history": [
+    {
+      "timestamp": "2026-06-02T14:58:22.092893",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-02T14:58:33.089742",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-02T14:59:25.241241",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-02T15:01:00.896833",
+      "detected_emotion": "frustration",
+      "confidence": 0.375,
+      "signals_found": [
+        "again"
+      ],
+      "style_note": "be concise, acknowledge the frustration, skip preamble"
+    },
+    {
+      "timestamp": "2026-06-02T15:04:35.484457",
+      "detected_emotion": "frustration",
+      "confidence": 0.375,
+      "signals_found": [
+        "again"
+      ],
+      "style_note": "be concise, acknowledge the frustration, skip preamble"
+    },
+    {
+      "timestamp": "2026-06-02T15:14:50.211654",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-02T17:53:14.418418",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-02T17:57:41.889608",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-02T17:58:03.666366",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:00:30.190461",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:00:46.714472",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:01:02.042775",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:01:09.395120",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:01:33.486811",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:01:49.006382",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:02:21.437387",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:02:51.391645",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:02:59.285829",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:03:04.404561",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:03:10.519562",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:03:37.239278",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:03:43.821623",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:04:06.075277",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:04:50.141638",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:05:06.813515",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:05:19.137799",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:05:39.587914",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:05:51.483359",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:05:57.975564",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:06:13.005489",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:06:18.055887",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:06:32.364277",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:06:48.357436",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:06:55.874143",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:07:59.706449",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-04T16:08:12.784643",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:46:49.158187",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:47:28.840950",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:47:38.620773",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:47:38.709201",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:47:45.920872",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:48:06.668338",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:48:15.214925",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:50:01.053103",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:50:27.032784",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:53:43.543865",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:54:01.763899",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T06:54:13.248839",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T13:43:24.435461",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    },
+    {
+      "timestamp": "2026-06-08T13:49:16.486648",
+      "detected_emotion": "neutral",
+      "confidence": 0.5,
+      "signals_found": [],
+      "style_note": "conversational, warm, thorough"
+    }
+  ],
+  "rapport_score": 0.6499999999999999,
+  "current_emotion": "neutral",
+  "interaction_count": 123
+}

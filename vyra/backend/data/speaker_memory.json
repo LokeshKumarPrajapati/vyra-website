@@ -1,0 +1,16 @@
+{
+  "speakers": {
+    "TestUser": {
+      "name": "TestUser",
+      "first_seen": "2026-01-22T15:46:49.609066",
+      "last_seen": "2026-01-22T15:46:49.609066",
+      "encounter_count": 1,
+      "notes": "Test user for environmental awareness",
+      "conversation_topics": [
+        "testing",
+        "audio analysis"
+      ],
+      "relationship": "tester"
+    }
+  }
+}

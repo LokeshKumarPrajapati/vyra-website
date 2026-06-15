@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/posts/bharatiya-janata-party_india-didnt-just-break-ground-in-dahod-activity-7335281543851950080-wvmd?trk=public_profile_relatedposts",
+  "url": "https://www.linkedin.com/posts/bharatiya-janata-party_india-didnt-just-break-ground-in-dahod-activity-7335281543851950080-wvmD?trk=public_profile_relatedPosts",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 1
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

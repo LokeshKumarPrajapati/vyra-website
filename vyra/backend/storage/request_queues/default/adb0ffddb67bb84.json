@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/signup/public-profile-join?trk=public_profile_bottom-cta-banner&vieweevanityname=marketing-zaveus-158a393a3",
+  "url": "https://www.linkedin.com/signup/public-profile-join?vieweeVanityName=marketing-zaveus-158a393a3&trk=public_profile_bottom-cta-banner",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 1
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

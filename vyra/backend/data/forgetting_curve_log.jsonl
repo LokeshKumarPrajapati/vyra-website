@@ -1,0 +1,6 @@
+{"ts": "2026-04-19T23:40:34.648467", "entity_id": "new_entity_123", "was_successful": true, "old_stability": 14.0, "new_stability": 17.5, "retention": 1.0}
+{"ts": "2026-04-20T12:38:44.089955", "entity_id": "new_entity_123", "was_successful": true, "old_stability": 17.5, "new_stability": 22.05, "retention": 1.0}
+{"ts": "2026-04-20T16:49:49.145515", "entity_id": "new_entity_123", "was_successful": true, "old_stability": 22.05, "new_stability": 28.0, "retention": 1.0}
+{"ts": "2026-04-20T17:21:12.624223", "entity_id": "new_entity_123", "was_successful": true, "old_stability": 28.0, "new_stability": 35.84, "retention": 1.0}
+{"ts": "2026-05-04T21:09:38.451194", "entity_id": "new_entity_123", "was_successful": true, "old_stability": 35.84, "new_stability": 46.24, "retention": 1.0}
+{"ts": "2026-05-04T21:10:06.873343", "entity_id": "new_entity_123", "was_successful": true, "old_stability": 46.24, "new_stability": 60.11, "retention": 1.0}

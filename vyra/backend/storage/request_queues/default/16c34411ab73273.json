@@ -1,0 +1,17 @@
+{
+  "unique_key": "https://www.linkedin.com/learning/ai-security-tools-and-automation/demo-end-to-end-workflow?trk=public_profile_guest_nav_menu_learning&upsellorderorigin=public_profile_guest_nav_menu_learning",
+  "url": "https://www.linkedin.com/learning/ai-security-tools-and-automation/demo-end-to-end-workflow?upsellOrderOrigin=public_profile_guest_nav_menu_learning&trk=public_profile_guest_nav_menu_learning",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 2
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "temp_cad_gen", "label": "temp_cad_gen.py", "file_type": "code", "source_file": "backend\\temp_cad_gen.py", "source_location": "L1"}], "edges": [{"source": "temp_cad_gen", "target": "build123d", "relation": "imports_from", "confidence": "EXTRACTED", "source_file": "backend\\temp_cad_gen.py", "source_location": "L3", "weight": 1.0}]}

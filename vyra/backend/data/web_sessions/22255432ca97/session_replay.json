@@ -1,0 +1,38 @@
+{
+  "success": false,
+  "summary": "OpenRouter API unavailable after retries. Check OPENROUTER_API_KEY and quota.",
+  "action_count": 1,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "22255432ca97",
+    "session_start": "2026-03-17T03:08:58.312910",
+    "pages_visited": 0,
+    "action_count": 1,
+    "mode": "autonomous",
+    "plan_steps": 1,
+    "current_step": 1,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "1844eb40",
+      "timestamp": "2026-03-17T03:08:59.090562",
+      "action_type": "error",
+      "description": "OpenRouter API unavailable after retries. Check OPENROUTER_API_KEY and quota.",
+      "url": "about:blank",
+      "risk": "high",
+      "thought": "All OpenRouter attempts failed \u2014 reporting error",
+      "confidence": 0.0,
+      "success": false,
+      "error": "OpenRouter API unavailable after retries. Check OPENROUTER_API_KEY and quota.",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: open youtube"
+  ]
+}

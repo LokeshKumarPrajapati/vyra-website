@@ -1,0 +1,38 @@
+{
+  "success": false,
+  "summary": "Gemini API unavailable after retries. Check GOOGLE_API_KEY and quota.",
+  "action_count": 1,
+  "final_url": "about:blank",
+  "session_info": {
+    "session_id": "ea553268cbe3",
+    "session_start": "2026-03-17T03:09:51.095140",
+    "pages_visited": 0,
+    "action_count": 1,
+    "mode": "autonomous",
+    "plan_steps": 1,
+    "current_step": 1,
+    "downloads": [],
+    "tabs_open": 1,
+    "visited_urls": []
+  },
+  "actions": [
+    {
+      "id": "9e4f3dc0",
+      "timestamp": "2026-03-17T03:09:55.901403",
+      "action_type": "error",
+      "description": "Gemini API unavailable after retries. Check GOOGLE_API_KEY and quota.",
+      "url": "about:blank",
+      "risk": "high",
+      "thought": "All Gemini attempts failed \u2014 reporting error",
+      "confidence": 0.0,
+      "success": false,
+      "error": "Gemini API unavailable after retries. Check GOOGLE_API_KEY and quota.",
+      "duration_ms": 0
+    }
+  ],
+  "extracted_data": {},
+  "downloads": [],
+  "plan": [
+    "Complete the task: openn youtube"
+  ]
+}

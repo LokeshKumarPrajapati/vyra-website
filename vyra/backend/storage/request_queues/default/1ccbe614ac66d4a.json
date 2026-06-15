@@ -1,0 +1,17 @@
+{
+  "unique_key": "http://www.linkedin.com/learning/subscription/products?destredirecturl=https://www.linkedin.com/learning/search?keywords%3d&lipi=urn:li:page:d_learning_search_guest_jsbeacon%3b18jdnfldrmifxvfnrw2-aq&trk=learning-serp_nav-header-join&upsellorderorigin=public_profile_guest_nav_menu_learning&upselltrackingid=0b99adf5-b68c-4d7e-aec5-3414b5ca2efd&upselltrk=lil_upsell_nav_subscription",
+  "url": "http://www.linkedin.com/learning/subscription/products?destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fsearch%3Fkeywords%3D&trk=learning-serp_nav-header-join&upsellTrk=lil_upsell_nav_subscription&upsellOrderOrigin=public_profile_guest_nav_menu_learning&upsellTrackingId=0b99adf5-b68c-4d7e-aec5-3414b5ca2efd&lipi=urn%3Ali%3Apage%3Ad_learning_search_guest_jsbeacon%3B18JDnFldRMifXvFNrw2-aQ",
+  "method": "GET",
+  "payload": null,
+  "headers": {},
+  "user_data": {
+    "__crawlee": {
+      "enqueueStrategy": "same-hostname",
+      "crawlDepth": 2
+    }
+  },
+  "retry_count": 0,
+  "no_retry": false,
+  "loaded_url": null,
+  "handled_at": null
+}
