@@ -14,7 +14,10 @@
       "Bash(curl -s \"http://localhost:5174/src/components/Live2DViewer.jsx\")",
       "Bash(curl -s \"http://localhost:5174/@vite/client\" -o /dev/null -w \"%{http_code}\")",
       "Bash(curl -s \"http://localhost:5174/src/main.jsx\")",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); motions=d.get\\('FileReferences',{}\\).get\\('Motions',{}\\); [print\\(k\\) for k in motions.keys\\(\\)]\")",
+      "Skill(run)",
+      "Skill(run:*)"
     ]
   }
 }

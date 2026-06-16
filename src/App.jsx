@@ -1,4 +1,5 @@
 import HeroSection from './components/HeroSection';
+import { BrowserShell } from './components/BrowserShell';
 import ClickSpark from './components/ClickSpark';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       duration={400}
     >
       <HeroSection />
+      <BrowserShell />
     </ClickSpark>
   );
 }

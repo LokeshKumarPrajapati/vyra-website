@@ -13,8 +13,8 @@ export class AudioPlayer {
     if (this.ctx) return
     this.ctx     = new AudioContext({ sampleRate: 24000 })
     this.analyser = this.ctx.createAnalyser()
-    this.analyser.fftSize              = 512
-    this.analyser.smoothingTimeConstant = 0.3
+    this.analyser.fftSize              = 256   // smaller = faster time-domain response
+    this.analyser.smoothingTimeConstant = 0    // no analyser smoothing, we lerp in the ticker
     this.analyser.connect(this.ctx.destination)
     this.nextStartTime = this.ctx.currentTime
   }
@@ -59,15 +59,15 @@ export class AudioPlayer {
   // Returns 0–1 RMS amplitude of the current audio output (for lip sync)
   getAmplitude() {
     if (!this.analyser || !this._playing) return 0
-    const data = new Uint8Array(this.analyser.frequencyBinCount)
+    // Must use fftSize (not frequencyBinCount) for getByteTimeDomainData
+    const data = new Uint8Array(this.analyser.fftSize)
     this.analyser.getByteTimeDomainData(data)
     let sum = 0
     for (let i = 0; i < data.length; i++) {
       const v = (data[i] - 128) / 128
       sum += v * v
     }
-    // Scale up (raw RMS is small) and clamp to 1
-    return Math.min(1, Math.sqrt(sum / data.length) * 5)
+    return Math.min(1, Math.sqrt(sum / data.length) * 10)
   }
 
   stop() {

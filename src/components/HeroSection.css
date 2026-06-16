@@ -14,11 +14,18 @@
 }
 
 /* ── Background layer ────────────────────────────────────────────────────── */
+@keyframes moveBackground {
+  from { background-position: 0% 0%;    }
+  to   { background-position: 0% -1500%; }
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
   z-index: 0;
-  transition: none;
+  transition: background-color 0.05s linear;
+  animation: moveBackground 60s linear infinite;
+  background-size: 500px;
 }
 
 /* ── Peek glow — blue aura at center of screen (dark scene) ──────────────── */

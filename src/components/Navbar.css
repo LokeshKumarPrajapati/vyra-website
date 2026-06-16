@@ -1,3 +1,12 @@
+/* ── Animated moving background (same as demo) ───────────────────────────── */
+@keyframes moveBackground {
+  from { background-position: 0% 0%; }
+  to   { background-position: 0% -1500%; }
+}
+
+
+
+/* ── Outer navbar positioner ─────────────────────────────────────────────── */
 .navbar {
   position: absolute;
   top: 24px;
@@ -9,23 +18,61 @@
   white-space: nowrap;
 }
 
+/* ── liquidGlass wrapper — the outermost pill ────────────────────────────── */
 .navbar-inner {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 0;
-  background: rgba(255, 255, 255, 0.82);
-  backdrop-filter: blur(24px) saturate(1.8);
-  -webkit-backdrop-filter: blur(24px) saturate(1.8);
-  border-radius: 60px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.08),
-    0 1px 4px rgba(0, 0, 0, 0.04);
-  padding: 8px 10px 8px 20px;
   gap: 4px;
+  padding: 8px 10px 8px 20px;
+  border-radius: 60px;
+  overflow: hidden;
+  font-weight: 600;
+
 }
 
-/* Logo */
+/* ── Layer 1: SVG glass distortion (liquidGlass-effect) ─────────────────── */
+.navbar-glass-effect {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  backdrop-filter: blur(12px) saturate(180%);
+  overflow: hidden;
+}
+
+/* ── Layer 2: Colour tint — tri-mode pink→purple→blue (liquidGlass-tint) ── */
+.navbar-glass-tint {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  background: rgba(255, 255, 255, 0.20);
+}
+
+/* ── Layer 3: Inset shine highlight (liquidGlass-shine) ─────────────────── */
+.navbar-glass-shine {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 1px 0 rgba(255, 255, 255, 0.5),
+    inset -1px -1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
+/* ── Layer 4: All actual navbar content ─────────────────────────────────── */
+.navbar-content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+/* ── Logo ────────────────────────────────────────────────────────────────── */
 .navbar-logo {
   display: flex;
   align-items: center;
@@ -48,13 +95,14 @@
   color: #0f172a;
 }
 
-/* Nav links */
+/* ── Nav links ───────────────────────────────────────────────────────────── */
 .navbar-links {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 2px;
-  margin-right: 20px;
+  margin: 0 20px 0 0;
+  padding: 0;
 }
 
 .nav-item {
@@ -94,7 +142,7 @@
   transform: translateX(-50%);
 }
 
-/* CTA button */
+/* ── CTA button ──────────────────────────────────────────────────────────── */
 .navbar-cta {
   display: flex;
   align-items: center;
