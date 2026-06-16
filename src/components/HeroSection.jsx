@@ -72,6 +72,9 @@ export default function HeroSection() {
   // ── Navbar fades in after curtains fully open ─────────────────────────────
   const navP = prog(p, 0.52, 0.72)
 
+  // Bottom fade: dissolve HeroSection into EcosystemPage bg as section ends
+  const sectionFadeP = prog(p, 0.72, 1.0)
+
   return (
     <div className="hero-scroll-container">
       <div className="hero-sticky">
@@ -110,6 +113,16 @@ export default function HeroSection() {
 
         {/* Navbar */}
         <Navbar progress={navP} />
+
+        {/* Fade into EcosystemPage — activates as section ends */}
+        <div style={{
+          position: 'absolute',
+          inset: 0,
+          background: 'linear-gradient(to bottom, transparent 20%, #07080d 100%)',
+          opacity: sectionFadeP,
+          pointerEvents: 'none',
+          zIndex: 60,
+        }} />
 
       </div>
 

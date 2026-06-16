@@ -10,22 +10,46 @@ import { AgentCluster } from './AgentCluster'
 import { ProactivePanel } from './ProactivePanel'
 import { WorkflowChain } from './WorkflowChain'
 import { SuggestionCloud } from './SuggestionCloud'
-import { SoftAurora } from './SoftAurora'
+import SoftAurora from './SoftAurora'
 import { contextChips } from '../data/ecosystemData'
+import { useEffect, useState } from 'react'
 import { useReveal } from './RevealContext'
 
 export function EcosystemPage() {
   const revealed = useReveal()
+  const [auroraReady, setAuroraReady] = useState(false)
+
+  useEffect(() => {
+    if (!revealed) return
+    const t = setTimeout(() => setAuroraReady(true), 1500)
+    return () => clearTimeout(t)
+  }, [revealed])
+
   return (
     <div className="relative h-full w-full overflow-hidden bg-[#07080d]">
       <div className="vyra-scene">
         <div className="absolute inset-0 z-0 bg-[#03050b]"
           style={{
-            opacity:    revealed ? 1 : 0,
-            transition: 'opacity 1.8s ease 2400ms',
+            opacity:    auroraReady ? 1 : 0,
+            transition: auroraReady ? 'opacity 1.5s ease' : 'none',
           }}
         >
-          <SoftAurora />
+          <SoftAurora
+            speed={0.6}
+            scale={1.5}
+            brightness={1}
+            color1="#f7f7f7"
+            color2="#e100ff"
+            noiseFrequency={2.5}
+            noiseAmplitude={1}
+            bandHeight={0.5}
+            bandSpread={1}
+            octaveDecay={0.1}
+            layerOffset={0}
+            colorSpeed={1}
+            enableMouseInteraction
+            mouseInfluence={0.25}
+          />
         </div>
         <div className="absolute inset-0 z-[1] bg-[radial-gradient(ellipse_at_center,rgba(4,8,18,0.03),rgba(0,0,0,0.28)_72%,rgba(0,0,0,0.56)),linear-gradient(180deg,rgba(0,0,0,0.21),rgba(0,0,0,0.1)_42%,rgba(0,0,0,0.29))]" />
         <div className="pointer-events-none absolute inset-[7px] z-[2] rounded-[11px] border border-white/[0.035] shadow-[inset_0_0_28px_rgba(0,0,0,0.32)]" />

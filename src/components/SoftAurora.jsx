@@ -1,14 +1,14 @@
-import { useEffect, useRef } from 'react'
-import { Mesh, Program, Renderer, Triangle } from 'ogl'
+import { Renderer, Program, Mesh, Triangle } from 'ogl';
+import { useEffect, useRef } from 'react';
+import './SoftAurora.css';
 
-function hexToRgb(hex) {
-  const clean = hex.replace('#', '')
-
+function hexToVec3(hex) {
+  const h = hex.replace('#', '');
   return [
-    parseInt(clean.slice(0, 2), 16) / 255,
-    parseInt(clean.slice(2, 4), 16) / 255,
-    parseInt(clean.slice(4, 6), 16) / 255,
-  ]
+    parseInt(h.slice(0, 2), 16) / 255,
+    parseInt(h.slice(2, 4), 16) / 255,
+    parseInt(h.slice(4, 6), 16) / 255
+  ];
 }
 
 const vertexShader = `
@@ -19,7 +19,7 @@ void main() {
   vUv = uv;
   gl_Position = vec4(position, 0, 1);
 }
-`
+`;
 
 const fragmentShader = `
 precision highp float;
@@ -142,60 +142,59 @@ void main() {
   float alpha = clamp(length(col), 0.0, 1.0);
   gl_FragColor = vec4(col, alpha);
 }
-`
+`;
 
-export function SoftAurora({
-  speed = 0.3,
-  scale = 1.08,
-  brightness = 1.32,
-  color1 = '#52f1ff',
-  color2 = '#ff42cb',
-  noiseFrequency = 1.72,
-  noiseAmplitude = 0.94,
+export default function SoftAurora({
+  speed = 0.6,
+  scale = 1.5,
+  brightness = 1.0,
+  color1 = '#f7f7f7',
+  color2 = '#e100ff',
+  noiseFrequency = 2.5,
+  noiseAmplitude = 1.0,
   bandHeight = 0.5,
-  bandSpread = 0.58,
-  octaveDecay = 0.12,
-  layerOffset = 0.18,
-  colorSpeed = 0.6,
-  enableMouseInteraction = false,
-  mouseInfluence = 0.12,
+  bandSpread = 1.0,
+  octaveDecay = 0.1,
+  layerOffset = 0,
+  colorSpeed = 1.0,
+  enableMouseInteraction = true,
+  mouseInfluence = 0.25
 }) {
-  const containerRef = useRef(null)
+  const containerRef = useRef(null);
 
   useEffect(() => {
-    if (!containerRef.current) return undefined
+    if (!containerRef.current) return;
+    const container = containerRef.current;
+    const renderer = new Renderer({ alpha: true, premultipliedAlpha: false });
+    const gl = renderer.gl;
+    gl.clearColor(0, 0, 0, 0);
 
-    const container = containerRef.current
-    const renderer = new Renderer({ alpha: true, premultipliedAlpha: false })
-    const { gl } = renderer
-    let program
-    let animationFrame
-    let currentMouse = [0.5, 0.5]
-    let targetMouse = [0.5, 0.5]
+    let program;
+    let currentMouse = [0.5, 0.5];
+    let targetMouse = [0.5, 0.5];
 
-    gl.clearColor(0, 0, 0, 0)
-
-    function handleMouseMove(event) {
-      const rect = gl.canvas.getBoundingClientRect()
-      targetMouse = [(event.clientX - rect.left) / rect.width, 1 - (event.clientY - rect.top) / rect.height]
+    function handleMouseMove(e) {
+      const rect = gl.canvas.getBoundingClientRect();
+      targetMouse = [
+        (e.clientX - rect.left) / rect.width,
+        1.0 - (e.clientY - rect.top) / rect.height
+      ];
     }
 
     function handleMouseLeave() {
-      targetMouse = [0.5, 0.5]
+      targetMouse = [0.5, 0.5];
     }
 
     function resize() {
-      renderer.setSize(container.offsetWidth, container.offsetHeight)
-
+      renderer.setSize(container.offsetWidth, container.offsetHeight);
       if (program) {
-        program.uniforms.uResolution.value = [gl.canvas.width, gl.canvas.height, gl.canvas.width / gl.canvas.height]
+        program.uniforms.uResolution.value = [gl.canvas.width, gl.canvas.height, gl.canvas.width / gl.canvas.height];
       }
     }
+    window.addEventListener('resize', resize);
+    resize();
 
-    window.addEventListener('resize', resize)
-    resize()
-
-    const geometry = new Triangle(gl)
+    const geometry = new Triangle(gl);
     program = new Program(gl, {
       vertex: vertexShader,
       fragment: fragmentShader,
@@ -205,8 +204,8 @@ export function SoftAurora({
         uSpeed: { value: speed },
         uScale: { value: scale },
         uBrightness: { value: brightness },
-        uColor1: { value: hexToRgb(color1) },
-        uColor2: { value: hexToRgb(color2) },
+        uColor1: { value: hexToVec3(color1) },
+        uColor2: { value: hexToVec3(color2) },
         uNoiseFreq: { value: noiseFrequency },
         uNoiseAmp: { value: noiseAmplitude },
         uBandHeight: { value: bandHeight },
@@ -216,68 +215,49 @@ export function SoftAurora({
         uColorSpeed: { value: colorSpeed },
         uMouse: { value: new Float32Array([0.5, 0.5]) },
         uMouseInfluence: { value: mouseInfluence },
-        uEnableMouse: { value: enableMouseInteraction },
-      },
-    })
+        uEnableMouse: { value: enableMouseInteraction }
+      }
+    });
 
-    const mesh = new Mesh(gl, { geometry, program })
-    container.appendChild(gl.canvas)
+    const mesh = new Mesh(gl, { geometry, program });
+    container.appendChild(gl.canvas);
 
     if (enableMouseInteraction) {
-      gl.canvas.addEventListener('mousemove', handleMouseMove)
-      gl.canvas.addEventListener('mouseleave', handleMouseLeave)
+      gl.canvas.addEventListener('mousemove', handleMouseMove);
+      gl.canvas.addEventListener('mouseleave', handleMouseLeave);
     }
 
-    function animate(time) {
-      animationFrame = requestAnimationFrame(animate)
-      program.uniforms.uTime.value = time * 0.001
+    let animationFrameId;
+
+    function update(time) {
+      animationFrameId = requestAnimationFrame(update);
+      program.uniforms.uTime.value = time * 0.001;
 
       if (enableMouseInteraction) {
-        currentMouse[0] += 0.05 * (targetMouse[0] - currentMouse[0])
-        currentMouse[1] += 0.05 * (targetMouse[1] - currentMouse[1])
-        program.uniforms.uMouse.value[0] = currentMouse[0]
-        program.uniforms.uMouse.value[1] = currentMouse[1]
+        currentMouse[0] += 0.05 * (targetMouse[0] - currentMouse[0]);
+        currentMouse[1] += 0.05 * (targetMouse[1] - currentMouse[1]);
+        program.uniforms.uMouse.value[0] = currentMouse[0];
+        program.uniforms.uMouse.value[1] = currentMouse[1];
       } else {
-        program.uniforms.uMouse.value[0] = 0.5
-        program.uniforms.uMouse.value[1] = 0.5
+        program.uniforms.uMouse.value[0] = 0.5;
+        program.uniforms.uMouse.value[1] = 0.5;
       }
 
-      renderer.render({ scene: mesh })
+      renderer.render({ scene: mesh });
     }
-
-    animationFrame = requestAnimationFrame(animate)
+    animationFrameId = requestAnimationFrame(update);
 
     return () => {
-      cancelAnimationFrame(animationFrame)
-      window.removeEventListener('resize', resize)
-
+      cancelAnimationFrame(animationFrameId);
+      window.removeEventListener('resize', resize);
       if (enableMouseInteraction) {
-        gl.canvas.removeEventListener('mousemove', handleMouseMove)
-        gl.canvas.removeEventListener('mouseleave', handleMouseLeave)
+        gl.canvas.removeEventListener('mousemove', handleMouseMove);
+        gl.canvas.removeEventListener('mouseleave', handleMouseLeave);
       }
+      if (gl.canvas.parentNode === container) container.removeChild(gl.canvas);
+      gl.getExtension('WEBGL_lose_context')?.loseContext();
+    };
+  }, [speed, scale, brightness, color1, color2, noiseFrequency, noiseAmplitude, bandHeight, bandSpread, octaveDecay, layerOffset, colorSpeed, enableMouseInteraction, mouseInfluence]);
 
-      if (gl.canvas.parentNode === container) {
-        container.removeChild(gl.canvas)
-      }
-
-      gl.getExtension('WEBGL_lose_context')?.loseContext()
-    }
-  }, [
-    speed,
-    scale,
-    brightness,
-    color1,
-    color2,
-    noiseFrequency,
-    noiseAmplitude,
-    bandHeight,
-    bandSpread,
-    octaveDecay,
-    layerOffset,
-    colorSpeed,
-    enableMouseInteraction,
-    mouseInfluence,
-  ])
-
-  return <div ref={containerRef} className="soft-aurora-container" />
+  return <div ref={containerRef} className="soft-aurora-container" style={{ willChange: 'contents' }} />;
 }

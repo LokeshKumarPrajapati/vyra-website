@@ -15,6 +15,7 @@ export function SectionLabel({ title, children, className = '', align = 'left', 
           ? 'translate(0, 0)'
           : `translate(${fromX}, ${fromY})`,
         transition: `opacity 0.7s ease ${delay}ms, transform 0.7s ease ${delay}ms`,
+        willChange: 'transform, opacity',
       }}
     >
       <h2 className="font-semibold leading-tight text-[#f4f4f8]/95 [font-size:clamp(12px,1.32cqw,20px)]">

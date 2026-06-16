@@ -16,16 +16,23 @@ export function AppNode({ app, delay = 0 }) {
   const isSlack  = app.type === 'slack'
   const isFigma  = app.type === 'figma'
 
+  // Offset from final position to center origin (50vw, 34vh).
+  // Using vw/vh since the container is h-screen w-screen.
+  const dx = 50 - app.x
+  const dy = 34 - app.y
+
   return (
     <div
-      className="absolute z-20 -translate-x-1/2 -translate-y-1/2 text-center"
+      className="absolute z-20 text-center"
       style={{
-        left:       revealed ? `${app.x}%` : '50%',
-        top:        revealed ? `${app.y}%` : '34%',
+        left:       `${app.x}%`,
+        top:        `${app.y}%`,
         opacity:    revealed ? 1 : 0,
-        transition: `left 0.95s cubic-bezier(0.34,1.4,0.64,1) ${delay}ms,
-                     top  0.95s cubic-bezier(0.34,1.4,0.64,1) ${delay}ms,
-                     opacity 0.5s ease ${delay}ms`,
+        transform:  revealed
+          ? 'translate(-50%, -50%)'
+          : `translate(calc(-50% + ${dx}vw), calc(-50% + ${dy}vh))`,
+        transition: `transform 0.95s cubic-bezier(0.34,1.4,0.64,1) ${delay}ms, opacity 0.5s ease ${delay}ms`,
+        willChange: 'transform, opacity',
       }}
     >
       <div

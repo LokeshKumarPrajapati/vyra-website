@@ -88,30 +88,6 @@ const dots = [
   { x: 757, y: 438, r: 2.1,  opacity: 0.78 },
 ]
 
-// Tone → particle colour + trail colour
-const PARTICLE_COLORS = {
-  violet: { head: '#e0c8ff', trail: '#a87bff' },
-  cyan:   { head: '#c8f6ff', trail: '#3ed8ff' },
-  pink:   { head: '#ffd6f0', trail: '#f080d0' },
-  gold:   { head: '#fff0c0', trail: '#ffcc55' },
-  memory: { head: '#e8d8ff', trail: '#c07bff' },
-  agent:  { head: '#c0f0ff', trail: '#5fd8ff' },
-}
-
-// How many particles per wire (busier wires get more)
-function particleCount(path) {
-  const busyPaths = ['browser-to-proactive', 'memory-context-to-researcher', 'browser-to-actions-control']
-  return busyPaths.includes(path.id) ? 3 : 2
-}
-
-// Speed tiers — slower feel
-const SPEED_BASE = {
-  'prompt-cloud-to-left-hub':      5.5,
-  'browser-to-proactive':          9.0,
-  'memory-context-to-researcher':  7.5,
-  'browser-to-execute-terminal':   5.0,
-  'calendar-to-understanding':     4.8,
-}
 
 export function ConnectorLayer() {
   const revealed = useReveal()
@@ -163,11 +139,6 @@ export function ConnectorLayer() {
           <feGaussianBlur stdDeviation="4" result="blur" />
           <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
         </filter>
-        <filter id="particleGlow" x="-300%" y="-300%" width="700%" height="700%" filterUnits="objectBoundingBox">
-          <feGaussianBlur stdDeviation="2.5" result="blur" />
-          <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-        </filter>
-
         {/* Dot gradients */}
         <radialGradient id="dotGradMain" cx="35%" cy="35%" r="65%">
           <stop offset="0%"   stopColor="#fff9e6" stopOpacity="1" />
@@ -180,10 +151,6 @@ export function ConnectorLayer() {
           <stop offset="100%" stopColor="#7ad4ff" stopOpacity="0.8" />
         </radialGradient>
 
-        {/* Hidden paths for animateMotion reference */}
-        {paths.map(p => (
-          <path key={`ref-${p.id}`} id={`ref-${p.id}`} d={p.d} />
-        ))}
       </defs>
 
       {/* ── Wire paths ─────────────────────────────────────────────────────── */}
@@ -214,83 +181,24 @@ export function ConnectorLayer() {
         )
       })}
 
-      {/* ── Energy pulse sweeps (stroke-dashoffset) ─────────────────────────── */}
-      {paths.map((path) => {
-        const clr   = PARTICLE_COLORS[path.tone] ?? PARTICLE_COLORS.violet
-        const count = particleCount(path)
-        const speed = SPEED_BASE[path.id] ?? (2.0 + Math.abs(path.id.charCodeAt(0) - 97) * 0.09)
-        const pathLen = 300   // virtual length for dasharray math
-
-        return Array.from({ length: count }, (_, pi) => {
-          const offset   = ((pi / count) * speed).toFixed(2)
-          const dur      = speed.toFixed(2) + 's'
-          const dashLen  = 8    // smaller pulse segment
-          const gapLen   = pathLen - dashLen
-          const pKey     = `${path.id}-pulse${pi}`
-
-          return (
-            <g key={pKey}>
-              {/* Wide soft halo */}
-              <path
-                d={path.d}
-                fill="none"
-                stroke={clr.trail}
-                strokeLinecap="round"
-                strokeWidth={2.0}
-                strokeDasharray={`${dashLen * 0.65} ${gapLen}`}
-                opacity="0"
-                filter="url(#particleGlow)"
-              >
-                <animate attributeName="stroke-dashoffset"
-                  from={pathLen} to={-dashLen}
-                  dur={dur} begin={`-${offset}s`} repeatCount="indefinite" />
-                <animate attributeName="opacity"
-                  values="0;0.38;0.35;0.38;0"
-                  keyTimes="0;0.04;0.5;0.96;1"
-                  dur={dur} begin={`-${offset}s`} repeatCount="indefinite" />
-              </path>
-
-              {/* Bright core pulse */}
-              <path
-                d={path.d}
-                fill="none"
-                stroke={clr.head}
-                strokeLinecap="round"
-                strokeWidth={0.9}
-                strokeDasharray={`${dashLen} ${gapLen}`}
-                opacity="0"
-              >
-                <animate attributeName="stroke-dashoffset"
-                  from={pathLen} to={-dashLen}
-                  dur={dur} begin={`-${offset}s`} repeatCount="indefinite" />
-                <animate attributeName="opacity"
-                  values="0;0.92;0.88;0.92;0"
-                  keyTimes="0;0.04;0.5;0.96;1"
-                  dur={dur} begin={`-${offset}s`} repeatCount="indefinite" />
-              </path>
-            </g>
-          )
-        })
-      })}
 
       {/* ── Junction dots ──────────────────────────────────────────────────── */}
       {dots.map((dot, i) => {
-        const isHub     = dot.r >= 3.5
-        const grad      = isHub ? 'url(#dotGradHub)' : 'url(#dotGradMain)'
-        const pulseR    = dot.r * (isHub ? 2.6 : 2.2)
-        const pulseDur  = (2.2 + (i % 5) * 0.4).toFixed(1) + 's'
-        const pulseDelay= ((i % 7) * 0.35).toFixed(1) + 's'
-        const dotDelay  = 1150 + i * 18
+        const isHub    = dot.r >= 3.5
+        const grad     = isHub ? 'url(#dotGradHub)' : 'url(#dotGradMain)'
+        const pulseR   = dot.r * (isHub ? 2.6 : 2.2)
+        const dur      = (2.2 + (i % 5) * 0.4).toFixed(1) + 's'
+        const begin    = ((i % 7) * 0.35).toFixed(1) + 's'
+        const dotDelay = 1150 + i * 18
         return (
           <g key={`${dot.x}-${dot.y}`}
             style={{ opacity: revealed ? 1 : 0, transition: `opacity 0.5s ease ${dotDelay}ms` }}
           >
             <circle cx={dot.x} cy={dot.y} r={pulseR} fill="none"
-              stroke={isHub ? '#7ad4ff' : '#ffe4b7'} strokeWidth="0.6"
-              opacity="0" filter="url(#softGlow)"
+              stroke={isHub ? '#7ad4ff' : '#ffd080'} strokeWidth="1.4" opacity="0"
             >
-              <animate attributeName="r" values={`${dot.r};${pulseR * 1.4}`} dur={pulseDur} begin={pulseDelay} repeatCount="indefinite" />
-              <animate attributeName="opacity" values="0.55;0" dur={pulseDur} begin={pulseDelay} repeatCount="indefinite" />
+              <animate attributeName="r" values={`${dot.r * 0.9};${pulseR * 1.6}`} dur={dur} begin={begin} repeatCount="indefinite" calcMode="spline" keySplines="0.2 0 0.8 1" keyTimes="0;1" />
+              <animate attributeName="opacity" values="0.8;0" dur={dur} begin={begin} repeatCount="indefinite" calcMode="spline" keySplines="0.1 0 0.6 1" keyTimes="0;1" />
             </circle>
             <circle cx={dot.x} cy={dot.y} r={dot.r} fill={grad} opacity={dot.opacity} filter="url(#nodeGlow)" />
           </g>
