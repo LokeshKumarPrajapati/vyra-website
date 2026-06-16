@@ -202,16 +202,17 @@ export default function VoiceChat({ live2dRef }) {
         .vc-mic-btn:active { transform: scale(0.96); }
       `}</style>
 
-      {/* ── Top-left fixed panel ────────────────────────────────────────────── */}
+      {/* ── Top-right fixed panel ────────────────────────────────────────────── */}
       <div
         className="vc-panel"
         style={{
-          position:      'absolute',
+          position:      'fixed',
           top:           '24px',
-          left:          '24px',
+          right:         '24px',
           zIndex:        200,
           display:       'flex',
           flexDirection: 'column',
+          alignItems:    'flex-end',
           gap:           '8px',
           pointerEvents: 'none',
         }}
