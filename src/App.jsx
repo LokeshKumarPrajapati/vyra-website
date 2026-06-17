@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import HeroSection from './components/HeroSection';
 import { BrowserShell } from './components/BrowserShell';
 import ClickSpark from './components/ClickSpark';
@@ -13,6 +14,7 @@ function App() {
     >
       <HeroSection />
       <BrowserShell />
+      <Analytics />
     </ClickSpark>
   );
 }
